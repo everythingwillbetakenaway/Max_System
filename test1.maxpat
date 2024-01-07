@@ -56,8 +56,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 457.0, 437.0, 81.0, 20.0 ],
-					"text" : "vintage mode"
+					"patching_rect" : [ 457.0, 437.0, 233.0, 20.0 ],
+					"text" : "vintage mode, biraz oynar sonra resetlenir"
 				}
 
 			}
