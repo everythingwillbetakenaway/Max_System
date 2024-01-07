@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-121",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 637.0, 436.0, 305.0, 20.0 ],
+					"text" : "ekleyebilmek icin once bayaa biseyinin olmasi gerekiyor"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-117",
 					"maxclass" : "comment",
 					"numinlets" : 1,
