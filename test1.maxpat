@@ -40,11 +40,67 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-140",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 50.5, 1014.0, 38.0, 22.0 ],
+					"text" : "zl.reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-139",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 117.0, 135.0, 22.0 ],
+					"text" : "print delta @deltatime 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-125",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 95.0, 188.0, 20.0 ],
+					"text" : "msp objelerine bak sol toolbardan"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-122",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 73.0, 208.0, 20.0 ],
+					"text" : "always use shift while inserting object"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-116",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 53.0, 223.0, 20.0 ],
+					"text" : "ui objelerinin yaninda prototype tikla hep"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-123",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.0, 44.0, 150.0, 20.0 ],
+					"patching_rect" : [ 203.75, 33.0, 150.0, 20.0 ],
 					"text" : "beap hepsine bak casually"
 				}
 
@@ -55,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.0, 18.0, 150.0, 20.0 ],
+					"patching_rect" : [ 203.75, 13.0, 150.0, 20.0 ],
 					"text" : "operate while unlocked"
 				}
 
@@ -151,7 +207,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 412.0, 44.0, 200.0, 24.0 ]
+					"patching_rect" : [ 434.0, 26.0, 200.0, 24.0 ]
 				}
 
 			}
@@ -610,7 +666,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 9,
 					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int", "int" ],
-					"patching_rect" : [ 417.0, 70.0, 103.0, 22.0 ],
+					"patching_rect" : [ 439.0, 52.0, 103.0, 22.0 ],
 					"text" : "borax"
 				}
 
@@ -1343,7 +1399,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 417.0, 356.0, 57.0, 22.0 ],
+					"patching_rect" : [ 439.0, 338.0, 57.0, 22.0 ],
 					"text" : "timepoint"
 				}
 
@@ -1390,7 +1446,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 417.0, 329.0, 52.0, 22.0 ],
+					"patching_rect" : [ 439.0, 311.0, 52.0, 22.0 ],
 					"text" : "setclock"
 				}
 
@@ -1417,7 +1473,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 619.0, 175.0, 18.0, 34.0 ],
+					"patching_rect" : [ 641.0, 157.0, 18.0, 34.0 ],
 					"size" : 2,
 					"value" : 0
 				}
@@ -1430,7 +1486,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 505.5, 294.0, 40.0, 22.0 ],
+					"patching_rect" : [ 527.5, 276.0, 40.0, 22.0 ],
 					"save" : [ "#N", "qlist", ";" ],
 					"text" : "qlist"
 				}
@@ -1443,7 +1499,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.0, 294.0, 44.0, 22.0 ],
+					"patching_rect" : [ 480.0, 276.0, 44.0, 22.0 ],
 					"text" : "pv cba"
 				}
 
@@ -1455,7 +1511,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.0, 294.0, 37.0, 22.0 ],
+					"patching_rect" : [ 439.0, 276.0, 37.0, 22.0 ],
 					"text" : "v abc"
 				}
 
@@ -1521,7 +1577,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.0, 175.0, 200.0, 100.0 ]
+					"patching_rect" : [ 439.0, 157.0, 200.0, 100.0 ]
 				}
 
 			}
@@ -2108,7 +2164,7 @@
 					"outcolormap" : "none",
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.0, 94.0, 280.0, 80.0 ]
+					"patching_rect" : [ 439.0, 76.0, 280.0, 80.0 ]
 				}
 
 			}
