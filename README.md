@@ -1,12 +1,6 @@
 # Max_System
- Max/MSP System <br> Test
-## Heading 2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
 
-Eurorack Techniques (SIRALA)
+Eurorack Techniques
 
 //Bu gate trigleri, post-volume send’de yap boylece, trigler volume envelope’u takip354 eder
 //vpme.de Trig31 Trigger to MIDI

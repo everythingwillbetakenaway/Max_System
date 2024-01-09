@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-123",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 246.0, 44.0, 150.0, 20.0 ],
+					"text" : "beap hepsine bak casually"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 246.0, 18.0, 150.0, 20.0 ],
+					"text" : "operate while unlocked"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"linecount" : 2,
 					"maxclass" : "newobj",
