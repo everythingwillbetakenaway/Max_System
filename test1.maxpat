@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 960.0, 28.0, 960.0, 1052.0 ],
+		"rect" : [ 0.0, 28.0, 1920.0, 1052.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,88 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-149",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 539.0, 231.25, 47.0 ],
+					"text" : "Double-click on a send, receive, or value object to show a contextual menu that lists of all instances of these objects,"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-147",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 510.0, 630.0, 37.0, 22.0 ],
+					"text" : "s abc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-145",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 463.0, 231.25, 74.0 ],
+					"text" : "Hold down the Command (Macintosh) key or Control (Windows) key and double-click on any coll or table object or subpatcher in any unlocked patcher window to view its contents."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-143",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 364.0, 231.25, 100.0 ],
+					"text" : "Hold down the Command (Macintosh) or Control (Windows) key while clicking on a user interface object (such as a number box, slider, or toggle). The object will behave as though the Patcher window were locked (i.e. you can toggle switches, set numbers, move faders, etc.)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-137",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 185.5, 231.25, 181.0 ],
+					"text" : "Click on any object in an unlocked Patcher window to select it. Use the arrow keys to move a selected object. It will move in any direction by 1 pixel or the default value if you have chosen Snap To Grid from the Options menu.\nTo temporarily disable alignment guides and Snap to Grid when moving objects, click on any object(s) in an unlocked Patcher window to select, then hold down the Command key (Macintosh) or Control key (Windows) while dragging the object(s)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 154.0, 233.25, 33.0 ],
+					"text" : "While a Patcher is unlocked, press U to toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 134.0, 197.0, 20.0 ],
+					"text" : "Command-click (Macintosh)  to edit"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-140",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -56,7 +138,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.75, 117.0, 135.0, 22.0 ],
+					"patching_rect" : [ 203.75, 112.0, 135.0, 22.0 ],
 					"text" : "print delta @deltatime 1"
 				}
 
@@ -67,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.75, 95.0, 188.0, 20.0 ],
+					"patching_rect" : [ 203.75, 92.0, 188.0, 20.0 ],
 					"text" : "msp objelerine bak sol toolbardan"
 				}
 
@@ -78,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.75, 73.0, 208.0, 20.0 ],
+					"patching_rect" : [ 203.75, 72.0, 208.0, 20.0 ],
 					"text" : "always use shift while inserting object"
 				}
 
@@ -89,7 +171,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.75, 53.0, 223.0, 20.0 ],
+					"patching_rect" : [ 203.75, 52.0, 223.0, 20.0 ],
 					"text" : "ui objelerinin yaninda prototype tikla hep"
 				}
 
@@ -124,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 350.0, 437.0, 51.0, 35.0 ],
+					"patching_rect" : [ 290.0, 644.0, 51.0, 35.0 ],
 					"text" : "techno~"
 				}
 
@@ -170,7 +252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 270.0, 783.0, 34.0, 22.0 ],
+					"patching_rect" : [ 210.0, 990.0, 34.0, 22.0 ],
 					"text" : "histo"
 				}
 
@@ -182,7 +264,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.0, 472.0, 71.5, 22.0 ],
+					"patching_rect" : [ 279.75, 690.0, 71.5, 22.0 ],
 					"text" : "scale"
 				}
 
@@ -194,7 +276,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 472.0, 61.0, 22.0 ],
+					"patching_rect" : [ 211.0, 679.0, 61.0, 22.0 ],
 					"text" : "zmap"
 				}
 
@@ -218,7 +300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 271.0, 496.0, 29.5, 22.0 ],
+					"patching_rect" : [ 211.0, 703.0, 29.5, 22.0 ],
 					"text" : "rdiv"
 				}
 
@@ -230,7 +312,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 542.0, 40.0, 22.0 ],
+					"patching_rect" : [ 211.0, 749.0, 40.0, 22.0 ],
 					"text" : "pong"
 				}
 
@@ -242,7 +324,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 271.0, 566.0, 39.0, 22.0 ],
+					"patching_rect" : [ 211.0, 773.0, 39.0, 22.0 ],
 					"text" : "mean"
 				}
 
@@ -254,7 +336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 271.0, 590.0, 40.0, 22.0 ],
+					"patching_rect" : [ 211.0, 797.0, 40.0, 22.0 ],
 					"text" : "fswap"
 				}
 
@@ -266,7 +348,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 271.0, 518.0, 44.0, 22.0 ],
+					"patching_rect" : [ 211.0, 725.0, 44.0, 22.0 ],
 					"text" : "accum"
 				}
 
@@ -488,7 +570,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 614.0, 40.0, 22.0 ],
+					"patching_rect" : [ 210.0, 821.0, 40.0, 22.0 ],
 					"text" : "clip"
 				}
 
@@ -558,7 +640,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 270.0, 756.0, 29.5, 22.0 ],
+					"patching_rect" : [ 210.0, 963.0, 29.5, 22.0 ],
 					"text" : "!/"
 				}
 
@@ -570,7 +652,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 270.0, 732.0, 29.5, 22.0 ],
+					"patching_rect" : [ 210.0, 939.0, 29.5, 22.0 ],
 					"text" : "!-"
 				}
 
@@ -582,7 +664,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 708.0, 39.0, 22.0 ],
+					"patching_rect" : [ 210.0, 915.0, 39.0, 22.0 ],
 					"text" : "round"
 				}
 
@@ -631,7 +713,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 270.0, 638.0, 44.0, 22.0 ],
+					"patching_rect" : [ 210.0, 845.0, 44.0, 22.0 ],
 					"text" : "decide"
 				}
 
@@ -1352,7 +1434,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.0, 680.0, 233.0, 20.0 ],
+					"patching_rect" : [ 256.0, 887.0, 233.0, 20.0 ],
 					"text" : "vintage mode, biraz oynar sonra resetlenir"
 				}
 
@@ -1364,7 +1446,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 270.0, 686.0, 40.0, 22.0 ],
+					"patching_rect" : [ 210.0, 893.0, 40.0, 22.0 ],
 					"text" : "drunk"
 				}
 
@@ -1375,7 +1457,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 308.0, 654.0, 167.0, 20.0 ],
+					"patching_rect" : [ 248.0, 861.0, 167.0, 20.0 ],
 					"text" : "bunun ile slice birlestirebilirsin"
 				}
 
@@ -1387,7 +1469,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 270.0, 662.0, 29.5, 22.0 ],
+					"patching_rect" : [ 210.0, 869.0, 29.5, 22.0 ],
 					"text" : "urn"
 				}
 
@@ -1570,7 +1652,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 287.2340425531915, 0.12, 0, 553.191489361702111, 0.24, 0, 744.680851063829778, 0.626666666666667, 0, 1000.0, 0.16, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 111.702127659574472, 0.493333333333333, 0, 287.2340425531915, 0.48, 0, 287.2340425531915, 0.12, 0, 553.191489361702111, 0.24, 0, 744.680851063829778, 0.626666666666667, 0, 1000.0, 0.16, 0, 1000.0, 0.0, 0 ],
 					"id" : "obj-78",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -1940,7 +2022,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 41.0, 102.0, 40.0, 22.0 ],
+					"patching_rect" : [ 41.0, 100.0, 40.0, 22.0 ],
 					"text" : "line"
 				}
 
@@ -2026,7 +2108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 53.0, 44.0, 22.0 ],
+					"patching_rect" : [ 6.0, 52.0, 44.0, 22.0 ],
 					"text" : "bucket"
 				}
 
@@ -2199,7 +2281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 126.0, 42.0, 22.0 ],
+					"patching_rect" : [ 6.0, 125.0, 42.0, 22.0 ],
 					"text" : "bondo"
 				}
 
@@ -2211,7 +2293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 102.0, 34.0, 22.0 ],
+					"patching_rect" : [ 6.0, 100.0, 34.0, 22.0 ],
 					"text" : "bline"
 				}
 
@@ -2223,7 +2305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 6.0, 78.0, 29.5, 22.0 ],
+					"patching_rect" : [ 6.0, 76.0, 29.5, 22.0 ],
 					"text" : "bag"
 				}
 
@@ -2245,7 +2327,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 28.0, 960.0, 1052.0 ],
+						"rect" : [ 0.0, 28.0, 1920.0, 1052.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2274,6 +2356,65 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 440.0, 901.0, 108.0, 20.0 ],
+									"text" : "phase cancellation"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 468.5, 927.0, 29.5, 22.0 ],
+									"text" : "+~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 479.0, 863.0, 30.0, 22.0 ],
+									"text" : "-~ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 479.0, 829.0, 33.0, 22.0 ],
+									"text" : "!-~ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 459.0, 789.0, 73.0, 33.0 ],
+									"text" : "invert signal or *~ -1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-18",
@@ -2316,7 +2457,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 89.0, 306.0, 38.0, 22.0 ],
+									"patching_rect" : [ 91.0, 316.0, 38.0, 22.0 ],
 									"text" : "vexpr"
 								}
 
@@ -2445,7 +2586,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 341.0, 873.0, 115.0, 33.0 ],
+									"patching_rect" : [ 294.0, 869.0, 115.0, 33.0 ],
 									"text" : "bu gorsel output icin kullanababilirsin"
 								}
 
@@ -2458,7 +2599,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 312.0, 813.0, 20.0, 140.0 ]
+									"patching_rect" : [ 265.0, 809.0, 20.0, 140.0 ]
 								}
 
 							}
@@ -2493,6 +2634,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
 									"source" : [ "obj-112", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
