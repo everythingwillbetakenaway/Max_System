@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 56.0, 1920.0, 1024.0 ],
+		"rect" : [ 0.0, 28.0, 1920.0, 1052.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -424,7 +424,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 50.5, 1014.0, 38.0, 22.0 ],
+					"patching_rect" : [ 95.0, 990.0, 38.0, 22.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -549,7 +549,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 212.25, 1016.0, 34.0, 22.0 ],
+					"patching_rect" : [ 243.75, 990.0, 34.0, 22.0 ],
 					"text" : "histo"
 				}
 
@@ -2038,7 +2038,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 6.0, 1014.0, 40.0, 22.0 ],
+					"patching_rect" : [ 50.5, 990.0, 40.0, 22.0 ],
 					"text" : "uzi"
 				}
 
@@ -2624,7 +2624,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 28.0, 1920.0, 1052.0 ],
+						"rect" : [ 34.0, 62.0, 1920.0, 1052.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2635,7 +2635,7 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
+						"toolbarvisible" : 0,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
@@ -2653,6 +2653,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1163.0, 781.0, 150.0, 60.0 ],
+									"text" : "The line object works with multi-segment ramps and is compatible with the function object"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-15",
 									"linecount" : 2,
