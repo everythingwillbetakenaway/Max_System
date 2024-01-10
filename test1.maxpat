@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 1452.0, 984.0 ],
+		"rect" : [ 0.0, 56.0, 1920.0, 1024.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,36 +40,58 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-181",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 615.0, 345.0, 29.5, 22.0 ],
-					"text" : "int"
+					"id" : "obj-141",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1191.0, 145.0, 150.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-180",
-					"maxclass" : "number",
+					"id" : "obj-142",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 645.0, 375.0, 50.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number",
-							"parameter_shortname" : "number",
-							"parameter_type" : 3
-						}
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 677.0, 228.0, 20.0 ],
+					"text" : "max console'un yanindaki + ya tikla "
+				}
 
-					}
-,
-					"varname" : "number"
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-138",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 271.0, 807.0, 57.0, 22.0 ],
+					"text" : "speedlim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-124",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 615.0, 228.0, 60.0 ],
+					"text" : "search functioni kullan -- en asagiya kadar in, forum post kismina, mesela search edebilcegin seyler sequencer track & hold etc."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-100",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 203.75, 584.0, 228.0, 33.0 ],
+					"text" : "snapshots'i kullanabilirsin, enable etmen lazim once objeler icin"
 				}
 
 			}
@@ -79,24 +101,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 269.0, 36.0, 20.0 ],
+					"patching_rect" : [ 137.0, 269.0, 39.0, 20.0 ],
 					"text" : "% 20 "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-176",
-					"items" : "<empty>",
-					"maxclass" : "chooser",
-					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 510.0, 435.0, 100.0, 100.0 ]
 				}
 
 			}
@@ -354,17 +360,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-147",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 630.0, 37.0, 22.0 ],
-					"text" : "s abc"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-145",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -382,7 +377,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.75, 364.0, 231.25, 100.0 ],
+					"patching_rect" : [ 203.75, 364.0, 233.0, 100.0 ],
 					"text" : "Hold down the Command (Macintosh) or Control (Windows) key while clicking on a user interface object (such as a number box, slider, or toggle). The object will behave as though the Patcher window were locked (i.e. you can toggle switches, set numbers, move faders, etc.)."
 				}
 
@@ -394,7 +389,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.75, 185.5, 231.25, 181.0 ],
+					"patching_rect" : [ 203.75, 185.5, 238.0, 181.0 ],
 					"text" : "Click on any object in an unlocked Patcher window to select it. Use the arrow keys to move a selected object. It will move in any direction by 1 pixel or the default value if you have chosen Snap To Grid from the Options menu.\nTo temporarily disable alignment guides and Snap to Grid when moving objects, click on any object(s) in an unlocked Patcher window to select, then hold down the Command key (Macintosh) or Control key (Windows) while dragging the object(s)."
 				}
 
@@ -508,7 +503,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 290.0, 644.0, 51.0, 35.0 ],
+					"patching_rect" : [ 292.25, 751.0, 51.0, 35.0 ],
 					"text" : "techno~"
 				}
 
@@ -554,7 +549,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 210.0, 990.0, 34.0, 22.0 ],
+					"patching_rect" : [ 212.25, 1016.0, 34.0, 22.0 ],
 					"text" : "histo"
 				}
 
@@ -566,7 +561,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.75, 690.0, 71.5, 22.0 ],
+					"patching_rect" : [ 279.5, 705.0, 71.5, 22.0 ],
 					"text" : "scale"
 				}
 
@@ -578,7 +573,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.0, 679.0, 61.0, 22.0 ],
+					"patching_rect" : [ 213.25, 705.0, 61.0, 22.0 ],
 					"text" : "zmap"
 				}
 
@@ -602,7 +597,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 211.0, 703.0, 29.5, 22.0 ],
+					"patching_rect" : [ 213.25, 729.0, 29.5, 22.0 ],
 					"text" : "rdiv"
 				}
 
@@ -614,7 +609,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.0, 749.0, 40.0, 22.0 ],
+					"patching_rect" : [ 213.25, 775.0, 40.0, 22.0 ],
 					"text" : "pong"
 				}
 
@@ -626,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 211.0, 773.0, 39.0, 22.0 ],
+					"patching_rect" : [ 213.25, 799.0, 39.0, 22.0 ],
 					"text" : "mean"
 				}
 
@@ -638,7 +633,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 211.0, 797.0, 40.0, 22.0 ],
+					"patching_rect" : [ 213.25, 823.0, 40.0, 22.0 ],
 					"text" : "fswap"
 				}
 
@@ -650,7 +645,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 211.0, 725.0, 44.0, 22.0 ],
+					"patching_rect" : [ 213.25, 751.0, 44.0, 22.0 ],
 					"text" : "accum"
 				}
 
@@ -872,7 +867,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 821.0, 40.0, 22.0 ],
+					"patching_rect" : [ 212.25, 847.0, 40.0, 22.0 ],
 					"text" : "clip"
 				}
 
@@ -942,7 +937,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 210.0, 963.0, 29.5, 22.0 ],
+					"patching_rect" : [ 212.25, 989.0, 29.5, 22.0 ],
 					"text" : "!/"
 				}
 
@@ -954,7 +949,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 210.0, 939.0, 29.5, 22.0 ],
+					"patching_rect" : [ 212.25, 965.0, 29.5, 22.0 ],
 					"text" : "!-"
 				}
 
@@ -966,7 +961,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 915.0, 39.0, 22.0 ],
+					"patching_rect" : [ 212.25, 941.0, 39.0, 22.0 ],
 					"text" : "round"
 				}
 
@@ -1015,7 +1010,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 210.0, 845.0, 44.0, 22.0 ],
+					"patching_rect" : [ 212.25, 871.0, 44.0, 22.0 ],
 					"text" : "decide"
 				}
 
@@ -1736,7 +1731,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 887.0, 233.0, 20.0 ],
+					"patching_rect" : [ 258.25, 913.0, 233.0, 20.0 ],
 					"text" : "vintage mode, biraz oynar sonra resetlenir"
 				}
 
@@ -1748,7 +1743,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 210.0, 893.0, 40.0, 22.0 ],
+					"patching_rect" : [ 212.25, 919.0, 40.0, 22.0 ],
 					"text" : "drunk"
 				}
 
@@ -1759,7 +1754,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 861.0, 167.0, 20.0 ],
+					"patching_rect" : [ 250.25, 887.0, 167.0, 20.0 ],
 					"text" : "bunun ile slice birlestirebilirsin"
 				}
 
@@ -1771,7 +1766,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 210.0, 869.0, 29.5, 22.0 ],
+					"patching_rect" : [ 212.25, 895.0, 29.5, 22.0 ],
 					"text" : "urn"
 				}
 
@@ -2659,6 +2654,66 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-15",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 975.0, 761.0, 150.0, 33.0 ],
+									"text" : "boyle audiolardan trigger alabilcegin bir circuit bent"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1005.0, 891.5, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "bang" ],
+									"patching_rect" : [ 1005.0, 863.0, 42.0, 22.0 ],
+									"text" : "edge~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 1005.0, 831.0, 43.0, 22.0 ],
+									"text" : ">~ 0.2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 1005.0, 800.0, 42.0, 22.0 ],
+									"text" : "delta~"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-22",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -2676,7 +2731,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 795.0, 795.0, 150.0, 114.0 ],
+									"patching_rect" : [ 795.0, 795.0, 153.0, 114.0 ],
 									"text" : "watchpoint ile calis, kabloya tiklayip, add watchpoint yaparsan, oraya printli, printsiz ve breakli sekilde uc cesit watchpoint ekleyebiliyorsun, artik print objesi yazmana gerek yok"
 								}
 
@@ -2688,7 +2743,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 795.0, 150.0, 87.0 ],
+									"patching_rect" : [ 615.0, 795.0, 152.0, 87.0 ],
 									"text" : "debug menu'de event ve signal probe var, ona basinca kablolardaki degeri gosteriyor ama kullanmazken kapali olsun cunku resource yiyor"
 								}
 
@@ -2747,7 +2802,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 459.0, 789.0, 73.0, 33.0 ],
+									"patching_rect" : [ 459.0, 789.0, 76.0, 33.0 ],
 									"text" : "invert signal or *~ -1"
 								}
 
@@ -2956,8 +3011,22 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-102", 0 ],
 									"source" : [ "obj-100", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -2986,6 +3055,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 1 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -3094,20 +3170,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-180" : [ "number", "number", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "test1.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
@@ -3137,7 +3199,7 @@
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
 						"blob" : 						{
-							"number" : [ -5 ]
+							"number" : [ 12 ]
 						}
 
 					}
@@ -3147,7 +3209,7 @@
 			}
 ,
 			"snapshotlist" : 			{
-				"current_snapshot" : 1,
+				"current_snapshot" : 0,
 				"entries" : [ 					{
 						"filetype" : "C74Snapshot",
 						"version" : 2,
