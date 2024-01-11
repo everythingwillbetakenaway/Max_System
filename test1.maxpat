@@ -41,10 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-141",
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1191.0, 145.0, 150.0, 20.0 ]
+					"patching_rect" : [ 1004.0, 36.0, 150.0, 74.0 ],
+					"text" : "Analog Heat 1st\nALM 2nd\nMatrix 3th\nNoise Engineering 4th\nJomox 5th"
 				}
 
 			}
@@ -66,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 807.0, 57.0, 22.0 ],
+					"patching_rect" : [ 266.0, 837.0, 57.0, 22.0 ],
 					"text" : "speedlim"
 				}
 
@@ -503,7 +505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 292.25, 751.0, 51.0, 35.0 ],
+					"patching_rect" : [ 287.25, 781.0, 51.0, 35.0 ],
 					"text" : "techno~"
 				}
 
@@ -549,7 +551,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 243.75, 990.0, 34.0, 22.0 ],
+					"patching_rect" : [ 238.75, 1020.0, 34.0, 22.0 ],
 					"text" : "histo"
 				}
 
@@ -561,7 +563,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.5, 705.0, 71.5, 22.0 ],
+					"patching_rect" : [ 274.5, 735.0, 71.5, 22.0 ],
 					"text" : "scale"
 				}
 
@@ -573,7 +575,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.25, 705.0, 61.0, 22.0 ],
+					"patching_rect" : [ 208.25, 735.0, 61.0, 22.0 ],
 					"text" : "zmap"
 				}
 
@@ -597,7 +599,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 213.25, 729.0, 29.5, 22.0 ],
+					"patching_rect" : [ 208.25, 759.0, 29.5, 22.0 ],
 					"text" : "rdiv"
 				}
 
@@ -609,7 +611,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.25, 775.0, 40.0, 22.0 ],
+					"patching_rect" : [ 208.25, 805.0, 40.0, 22.0 ],
 					"text" : "pong"
 				}
 
@@ -621,7 +623,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 213.25, 799.0, 39.0, 22.0 ],
+					"patching_rect" : [ 208.25, 829.0, 39.0, 22.0 ],
 					"text" : "mean"
 				}
 
@@ -633,7 +635,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 213.25, 823.0, 40.0, 22.0 ],
+					"patching_rect" : [ 208.25, 853.0, 40.0, 22.0 ],
 					"text" : "fswap"
 				}
 
@@ -645,7 +647,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 213.25, 751.0, 44.0, 22.0 ],
+					"patching_rect" : [ 208.25, 781.0, 44.0, 22.0 ],
 					"text" : "accum"
 				}
 
@@ -867,7 +869,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.25, 847.0, 40.0, 22.0 ],
+					"patching_rect" : [ 207.25, 877.0, 40.0, 22.0 ],
 					"text" : "clip"
 				}
 
@@ -937,7 +939,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 212.25, 989.0, 29.5, 22.0 ],
+					"patching_rect" : [ 207.25, 1019.0, 29.5, 22.0 ],
 					"text" : "!/"
 				}
 
@@ -949,7 +951,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 212.25, 965.0, 29.5, 22.0 ],
+					"patching_rect" : [ 207.25, 995.0, 29.5, 22.0 ],
 					"text" : "!-"
 				}
 
@@ -961,7 +963,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.25, 941.0, 39.0, 22.0 ],
+					"patching_rect" : [ 207.25, 971.0, 39.0, 22.0 ],
 					"text" : "round"
 				}
 
@@ -1010,7 +1012,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 212.25, 871.0, 44.0, 22.0 ],
+					"patching_rect" : [ 207.25, 901.0, 44.0, 22.0 ],
 					"text" : "decide"
 				}
 
@@ -1731,7 +1733,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.25, 913.0, 233.0, 20.0 ],
+					"patching_rect" : [ 253.25, 943.0, 233.0, 20.0 ],
 					"text" : "vintage mode, biraz oynar sonra resetlenir"
 				}
 
@@ -1743,7 +1745,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 212.25, 919.0, 40.0, 22.0 ],
+					"patching_rect" : [ 207.25, 949.0, 40.0, 22.0 ],
 					"text" : "drunk"
 				}
 
@@ -1754,7 +1756,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.25, 887.0, 167.0, 20.0 ],
+					"patching_rect" : [ 245.25, 917.0, 167.0, 20.0 ],
 					"text" : "bunun ile slice birlestirebilirsin"
 				}
 
@@ -1766,7 +1768,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 212.25, 895.0, 29.5, 22.0 ],
+					"patching_rect" : [ 207.25, 925.0, 29.5, 22.0 ],
 					"text" : "urn"
 				}
 
@@ -2624,7 +2626,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 62.0, 1920.0, 1052.0 ],
+						"rect" : [ 960.0, 28.0, 960.0, 1052.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2652,7 +2654,32 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 67.0, 652.0, 153.0, 74.0 ],
+									"text" : "max for live objesine getparams yollayip sonra o ismi harmonic_4 $1 gibi parametresini modulasyon yapabiliiyorsun"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 91.0, 361.0, 60.0, 22.0 ],
+									"text" : "2d.wave~"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-14",
 									"linecount" : 4,
