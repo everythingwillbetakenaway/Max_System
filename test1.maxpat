@@ -40,18 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-144",
-					"linecount" : 45,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1009.0, 138.0, 150.0, 610.0 ],
-					"text" : "06.01.22: What one does when god talks and says you are the one? Over and over again. Answer: A big secret. Call across rooms with the lady of rage 7/24 365, a thing i am surr you dont have, any synchronocities in your life? Like ever? Ever ever ever? I got it like without a miss every hour., day after day week after week year after year, million to one chance stuff happens to me at least once a week, and my conscience says that no one has this ever in their life, maybe a single drop of a fountain, a dot of a sprinkle in acid trip whatever\n\nSo\n\nTake those fancy cloths, your large sums of money, that church and beliefs of parasites, rabble of masses and their stream counts, commercial sounds popping from underground, gender identity crisis es, your posing postures of smth divine, your social media addictions, your Chicago house blues beats, and your dear family and friends\n\nShovel up\n\nNietzsche"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-141",
 					"linecount" : 5,
 					"maxclass" : "comment",
