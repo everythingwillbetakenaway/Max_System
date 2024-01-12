@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-144",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 46.0, 603.0, 96.0, 20.0 ],
+					"text" : "bu 8.3'de gelmis"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-141",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -2657,12 +2668,177 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 344.0, 234.0, 146.0, 22.0 ],
+									"text" : "selector~ @ramptime 100"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 347.0, 196.0, 48.0, 22.0 ],
+									"text" : "where~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 344.0, 161.0, 58.0, 22.0 ],
+									"text" : "updown~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 343.0, 124.0, 40.0, 22.0 ],
+									"text" : "twist~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 343.0, 86.0, 42.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"name" : "",
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0,
+										"range" : 128,
+										"size" : 128
+									}
+,
+									"text" : "table~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "signal", "signal", "int" ],
+									"patching_rect" : [ 39.0, 621.0, 46.0, 22.0 ],
+									"text" : "swing~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "signal", "signal", "int" ],
+									"patching_rect" : [ 39.0, 586.0, 50.0, 22.0 ],
+									"text" : "subdiv~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 39.0, 549.0, 50.5, 22.0 ],
+									"text" : "stash~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 39.0, 515.0, 59.0, 22.0 ],
+									"text" : "snowfall~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 39.0, 479.0, 48.0, 22.0 ],
+									"text" : "shape~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "bang" ],
+									"patching_rect" : [ 39.0, 446.0, 50.5, 22.0 ],
+									"text" : "ramp~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 39.0, 409.0, 82.0, 22.0 ],
+									"text" : "rampsmooth~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 38.0, 371.0, 85.0, 22.0 ],
+									"text" : "phasegroove~"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-19",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 67.0, 652.0, 155.0, 74.0 ],
+									"patching_rect" : [ 64.0, 716.0, 155.0, 74.0 ],
 									"text" : "max for live objesine getparams yollayip sonra o ismi harmonic_4 $1 gibi parametresini modulasyon yapabiliiyorsun"
 								}
 
@@ -2674,7 +2850,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 91.0, 361.0, 60.0, 22.0 ],
+									"patching_rect" : [ 36.0, 333.0, 60.0, 22.0 ],
 									"text" : "2d.wave~"
 								}
 
@@ -2855,7 +3031,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 89.0, 47.0, 30.0, 30.0 ]
+									"patching_rect" : [ 34.0, 19.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -2866,7 +3042,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 99.5, 131.0, 47.0 ],
+									"patching_rect" : [ 85.0, 71.5, 131.0, 47.0 ],
 									"text" : "herhangibi bir CV sinyalinden trig extract edilebilir, dene"
 								}
 
@@ -2878,7 +3054,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
-									"patching_rect" : [ 89.0, 112.0, 41.0, 22.0 ],
+									"patching_rect" : [ 34.0, 84.0, 41.0, 22.0 ],
 									"text" : "what~"
 								}
 
@@ -2889,7 +3065,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 91.0, 316.0, 38.0, 22.0 ],
+									"patching_rect" : [ 36.0, 288.0, 38.0, 22.0 ],
 									"text" : "vexpr"
 								}
 
@@ -2900,7 +3076,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 143.0, 155.0, 208.0, 20.0 ],
+									"patching_rect" : [ 88.0, 127.0, 208.0, 20.0 ],
 									"text" : "bunu upper threshold sabit yap wrapli"
 								}
 
@@ -2912,7 +3088,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 89.0, 152.0, 42.0, 22.0 ],
+									"patching_rect" : [ 34.0, 124.0, 42.0, 22.0 ],
 									"text" : "pong~"
 								}
 
@@ -2994,7 +3170,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 89.0, 237.5, 148.0, 22.0 ],
+									"patching_rect" : [ 34.0, 209.5, 148.0, 22.0 ],
 									"text" : "expr ($i1 + 127 * $i2) >> 5"
 								}
 
@@ -3006,7 +3182,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 89.0, 273.0, 199.0, 22.0 ],
+									"patching_rect" : [ 34.0, 245.0, 199.0, 22.0 ],
 									"text" : "if ($i1 >= $i3) && ($i2 <= $i3) then 1"
 								}
 
@@ -3042,7 +3218,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "", "int" ],
-									"patching_rect" : [ 89.0, 194.0, 40.0, 22.0 ],
+									"patching_rect" : [ 34.0, 166.0, 40.0, 22.0 ],
 									"text" : "sync~"
 								}
 
