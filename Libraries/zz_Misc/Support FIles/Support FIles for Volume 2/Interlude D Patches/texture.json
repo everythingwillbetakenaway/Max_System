@@ -1,0 +1,119 @@
+{
+	"pattrstorage" : 	{
+		"name" : "texture",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"texture_generator::envelope" : [ 250.0, 0.0, 1.0, 0.0, 0.0, 0, 2.659575, 0.866667, 0, 26.152491, 0.4, 0, 250.0, 0.0, 0 ],
+					"texture_generator::noterange" : [ 49, 70 ],
+					"texture_generator::pan" : [ 0.5 ],
+					"texture_generator::percent" : [ 50 ],
+					"texture_generator::rate" : [ 250 ],
+					"texture_generator[1]::envelope" : [ 125.0, 0.0, 1.0, 0.0, 0.0, 0, 81.560287, 1.0, 0, 95.523056, 1.0, 0, 125.0, 0.0, 0 ],
+					"texture_generator[1]::noterange" : [ 22, 32 ],
+					"texture_generator[1]::pan" : [ 0.15 ],
+					"texture_generator[1]::percent" : [ 80 ],
+					"texture_generator[1]::rate" : [ 125 ],
+					"texture_generator[2]::envelope" : [ 100.0, 0.0, 1.0, 0.0, 0.0, 0, 28.014187, 0.213333, 0, 100.0, 0.0, 0 ],
+					"texture_generator[2]::noterange" : [ 64, 83 ],
+					"texture_generator[2]::pan" : [ 0.825 ],
+					"texture_generator[2]::percent" : [ 20 ],
+					"texture_generator[2]::rate" : [ 100 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"texture_generator::envelope" : [ 201.0, 0.0, 1.0, 0.0, 0.0, 0, 3.920219, 0.64, 0, 19.957453, 0.093333, 0, 201.0, 0.0, 0 ],
+					"texture_generator::noterange" : [ 104, 107 ],
+					"texture_generator::pan" : [ 0.5 ],
+					"texture_generator::percent" : [ 50 ],
+					"texture_generator::rate" : [ 201 ],
+					"texture_generator[1]::envelope" : [ 100.0, 0.0, 1.0, 0.0, 0.0, 0, 1.06383, 1.0, 0, 9.929081, 0.546667, 0, 100.0, 0.0, 0 ],
+					"texture_generator[1]::noterange" : [ 43, 50 ],
+					"texture_generator[1]::pan" : [ 0.3 ],
+					"texture_generator[1]::percent" : [ 80 ],
+					"texture_generator[1]::rate" : [ 100 ],
+					"texture_generator[2]::envelope" : [ 40.0, 0.0, 1.0, 0.0, 0.0, 0, 38.439716, 0.706667, 0, 40.0, 0.0, 0 ],
+					"texture_generator[2]::noterange" : [ 82, 89 ],
+					"texture_generator[2]::pan" : [ 0.675 ],
+					"texture_generator[2]::percent" : [ 20 ],
+					"texture_generator[2]::rate" : [ 40 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"texture_generator::envelope" : [ 30.0, 0.0, 1.0, 0.0, 0.0, 0, 0.744682, 1.0, 0, 2.87234, 0.0, 0, 28.19149, 0.133333, 0, 30.0, 0.0, 0 ],
+					"texture_generator::noterange" : [ 85, 106 ],
+					"texture_generator::pan" : [ 0.5 ],
+					"texture_generator::percent" : [ 50 ],
+					"texture_generator::rate" : [ 30 ],
+					"texture_generator[1]::envelope" : [ 20.0, 0.0, 1.0, 0.0, 0.0, 0, 17.411348, 0.066667, 0, 19.113476, 1.0, 0, 20.0, 0.0, 0 ],
+					"texture_generator[1]::noterange" : [ 43, 50 ],
+					"texture_generator[1]::pan" : [ 0.725 ],
+					"texture_generator[1]::percent" : [ 10 ],
+					"texture_generator[1]::rate" : [ 20 ],
+					"texture_generator[2]::envelope" : [ 40.0, 0.0, 1.0, 0.0, 0.0, 0, 8.86525, 0.106667, 0, 32.269505, 0.106667, 0, 40.0, 0.0, 0 ],
+					"texture_generator[2]::noterange" : [ 82, 89 ],
+					"texture_generator[2]::pan" : [ 0.25 ],
+					"texture_generator[2]::percent" : [ 20 ],
+					"texture_generator[2]::rate" : [ 40 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"texture_generator::envelope" : [ 30.0, 0.0, 1.0, 0.0, 0.0, 0, 1.223405, 0.186667, 0, 2.87234, 0.0, 0, 7.606384, 0.213333, 0, 10.797873, 0.0, 0, 14.94681, 0.36, 0, 19.574469, 0.0, 0, 21.648937, 0.186667, 0, 24.202129, 0.0, 0, 28.19149, 0.133333, 0, 30.0, 0.0, 0 ],
+					"texture_generator::noterange" : [ 123, 128 ],
+					"texture_generator::pan" : [ 0.675 ],
+					"texture_generator::percent" : [ 50 ],
+					"texture_generator::rate" : [ 30 ],
+					"texture_generator[1]::envelope" : [ 10.0, 0.0, 1.0, 0.0, 0.0, 0, 8.971631, 0.0, 0, 9.397163, 0.493333, 0, 10.0, 0.0, 0 ],
+					"texture_generator[1]::noterange" : [ 62, 74 ],
+					"texture_generator[1]::pan" : [ 0.35 ],
+					"texture_generator[1]::percent" : [ 4 ],
+					"texture_generator[1]::rate" : [ 10 ],
+					"texture_generator[2]::envelope" : [ 3000.0, 0.0, 1.0, 0.0, 0.0, 0, 632.978821, 1.0, 0, 2452.127686, 1.0, 0, 3000.0, 0.0, 0 ],
+					"texture_generator[2]::noterange" : [ 20, 40 ],
+					"texture_generator[2]::pan" : [ 0.5 ],
+					"texture_generator[2]::percent" : [ 100 ],
+					"texture_generator[2]::rate" : [ 3000 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"texture_generator::envelope" : [ 100.0, 0.0, 1.0, 0.0, 0.0, 0, 1.06383, 0.746667, 0, 100.0, 0.0, 0 ],
+					"texture_generator::noterange" : [ 105, 117 ],
+					"texture_generator::pan" : [ 1.0 ],
+					"texture_generator::percent" : [ 30 ],
+					"texture_generator::rate" : [ 100 ],
+					"texture_generator[1]::envelope" : [ 100.0, 0.0, 1.0, 0.0, 0.0, 0, 100.0, 0.72, 0, 100.0, 0.0, 0 ],
+					"texture_generator[1]::noterange" : [ 105, 117 ],
+					"texture_generator[1]::pan" : [ 0.0 ],
+					"texture_generator[1]::percent" : [ 30 ],
+					"texture_generator[1]::rate" : [ 100 ],
+					"texture_generator[2]::envelope" : [ 100.0, 0.0, 1.0, 0.0, 0.0, 0, 50.886528, 0.706667, 0, 100.0, 0.0, 0 ],
+					"texture_generator[2]::noterange" : [ 105, 117 ],
+					"texture_generator[2]::pan" : [ 0.5 ],
+					"texture_generator[2]::percent" : [ 30 ],
+					"texture_generator[2]::rate" : [ 100 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,48 @@
+{
+	"pattrstorage" : 	{
+		"name" : "storage2",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"ms1::freqP" : [ 220.0 ],
+					"ms1::cutP" : [ 6.0 ],
+					"ms1::qfactP" : [ 6.0 ],
+					"ms2::freqP" : [ 55.0 ],
+					"ms2::cutP" : [ 6.0 ],
+					"ms2::qfactP" : [ 6.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"ms1::freqP" : [ 55.0 ],
+					"ms1::cutP" : [ 20.0 ],
+					"ms1::qfactP" : [ 9.0 ],
+					"ms2::freqP" : [ 55.200001 ],
+					"ms2::cutP" : [ 20.0 ],
+					"ms2::qfactP" : [ 9.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"ms1::freqP" : [ 8.0 ],
+					"ms1::cutP" : [ 58.0 ],
+					"ms1::qfactP" : [ 31.0 ],
+					"ms2::freqP" : [ 6.0 ],
+					"ms2::cutP" : [ 58.0 ],
+					"ms2::qfactP" : [ 31.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
