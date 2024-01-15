@@ -1116,7 +1116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1311.0, 532.0, 150.0, 47.0 ],
-					"text" : "Prophet-x notayi bolen ve suresince trige eden bir sistem, ve decay’i olsun"
+					"text" : "iridium notayi bolen ve suresince trige eden bir sistem, ve decay’i olsun"
 				}
 
 			}
