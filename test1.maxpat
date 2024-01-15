@@ -40,6 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-192",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1311.0, 584.0, 150.0, 33.0 ],
+					"text" : "nord drum 6 channel mode 3 channel mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-191",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1285.0, 147.0, 64.0, 20.0 ],
+					"text" : "main thing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1239.0, 147.0, 40.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr",
+					"varname" : "u952000952"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "openclose" ],
 					"bgmode" : 0,
 					"border" : 0,
