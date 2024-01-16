@@ -1725,6 +1725,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-177",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -2481,6 +2482,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-20",
 					"linecount" : 3,
 					"maxclass" : "newobj",
@@ -5477,6 +5479,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-153",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -5994,7 +5997,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 677.0, 228.0, 20.0 ],
-					"text" : "max console'un yanindaki + ya tikla "
+					"text" : "max console'un yanindaki + ya tikla ",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6018,7 +6022,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 615.0, 228.0, 60.0 ],
-					"text" : "search functioni kullan -- en asagiya kadar in, forum post kismina, mesela search edebilcegin seyler sequencer track & hold etc."
+					"text" : "search functioni kullan -- en asagiya kadar in, forum post kismina, mesela search edebilcegin seyler sequencer track & hold etc.",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6030,7 +6035,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 584.0, 228.0, 33.0 ],
-					"text" : "snapshots'i kullanabilirsin, enable etmen lazim once objeler icin"
+					"text" : "snapshots'i kullanabilirsin, enable etmen lazim once objeler icin",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6293,7 +6299,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 539.0, 231.25, 47.0 ],
-					"text" : "Double-click on a send, receive, or value object to show a contextual menu that lists of all instances of these objects,"
+					"text" : "Double-click on a send, receive, or value object to show a contextual menu that lists of all instances of these objects,",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6305,7 +6312,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 463.0, 231.25, 74.0 ],
-					"text" : "Hold down the Command (Macintosh) key or Control (Windows) key and double-click on any coll or table object or subpatcher in any unlocked patcher window to view its contents."
+					"text" : "Hold down the Command (Macintosh) key or Control (Windows) key and double-click on any coll or table object or subpatcher in any unlocked patcher window to view its contents.",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6317,7 +6325,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 364.0, 233.0, 100.0 ],
-					"text" : "Hold down the Command (Macintosh) or Control (Windows) key while clicking on a user interface object (such as a number box, slider, or toggle). The object will behave as though the Patcher window were locked (i.e. you can toggle switches, set numbers, move faders, etc.)."
+					"text" : "Hold down the Command (Macintosh) or Control (Windows) key while clicking on a user interface object (such as a number box, slider, or toggle). The object will behave as though the Patcher window were locked (i.e. you can toggle switches, set numbers, move faders, etc.).",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6329,7 +6338,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 185.5, 238.0, 181.0 ],
-					"text" : "Click on any object in an unlocked Patcher window to select it. Use the arrow keys to move a selected object. It will move in any direction by 1 pixel or the default value if you have chosen Snap To Grid from the Options menu.\nTo temporarily disable alignment guides and Snap to Grid when moving objects, click on any object(s) in an unlocked Patcher window to select, then hold down the Command key (Macintosh) or Control key (Windows) while dragging the object(s)."
+					"text" : "Click on any object in an unlocked Patcher window to select it. Use the arrow keys to move a selected object. It will move in any direction by 1 pixel or the default value if you have chosen Snap To Grid from the Options menu.\nTo temporarily disable alignment guides and Snap to Grid when moving objects, click on any object(s) in an unlocked Patcher window to select, then hold down the Command key (Macintosh) or Control key (Windows) while dragging the object(s).",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6341,7 +6351,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 154.0, 233.25, 33.0 ],
-					"text" : "While a Patcher is unlocked, press U to toggle"
+					"text" : "While a Patcher is unlocked, press U to toggle",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6352,7 +6363,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 134.0, 197.0, 20.0 ],
-					"text" : "Command-click (Macintosh)  to edit"
+					"text" : "Command-click (Macintosh)  to edit",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6386,7 +6398,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 92.0, 188.0, 20.0 ],
-					"text" : "msp objelerine bak sol toolbardan"
+					"text" : "msp objelerine bak sol toolbardan",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6397,7 +6410,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 72.0, 208.0, 20.0 ],
-					"text" : "always use shift while inserting object"
+					"text" : "always use shift while inserting object",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6408,7 +6422,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 52.0, 223.0, 20.0 ],
-					"text" : "ui objelerinin yaninda prototype tikla hep"
+					"text" : "ui objelerinin yaninda prototype tikla hep",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6419,7 +6434,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 33.0, 150.0, 20.0 ],
-					"text" : "beap hepsine bak casually"
+					"text" : "beap hepsine bak casually",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6430,7 +6446,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.75, 13.0, 150.0, 20.0 ],
-					"text" : "operate while unlocked"
+					"text" : "operate while unlocked",
+					"textcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ]
 				}
 
 			}
@@ -6449,23 +6466,27 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-121",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.0, 436.0, 305.0, 20.0 ],
-					"text" : "ekleyebilmek icin once bayaa biseyinin olmasi gerekiyor"
+					"text" : "ekleyebilmek icin once bayaa biseyinin olmasi gerekiyor",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-117",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.0, 460.0, 150.0, 20.0 ],
-					"text" : "19. tutorial'a bak"
+					"text" : "19. tutorial'a bak",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
@@ -6641,13 +6662,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-129",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.0, 679.0, 150.0, 33.0 ],
-					"text" : "mute/solo system for invidiual and group "
+					"text" : "mute/solo system for invidiual and group ",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
@@ -6789,13 +6812,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.0, 642.0, 150.0, 33.0 ],
-					"text" : "aux send system 4 doepfer system"
+					"text" : "aux send system 4 doepfer system",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
@@ -6813,59 +6838,69 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 789.0, 611.0, 42.0, 20.0 ],
-					"text" : "tempo"
+					"text" : "tempo",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-9",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.0, 603.0, 151.0, 33.0 ],
-					"text" : "transport yap ve search et ve sync ile birlestirme"
+					"text" : "transport yap ve search et ve sync ile birlestirme",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-127",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 789.0, 548.5, 150.0, 34.0 ],
-					"text" : "Test hexagonal panner\n"
+					"text" : "Test hexagonal panner\n",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-126",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.0, 548.5, 150.0, 47.0 ],
-					"text" : "Abstraction for hexagonal constant-intensity panning\nile cv"
+					"text" : "Abstraction for hexagonal constant-intensity panning\nile cv",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
 					"id" : "obj-19",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.0, 484.0, 162.0, 60.0 ],
-					"text" : "prophet-x output ediyor mu? CC'leri check out, pgm send filan var mi? patch ile saklaman gerekebilir"
+					"text" : "prophet-x output ediyor mu? CC'leri check out, pgm send filan var mi? patch ile saklaman gerekebilir",
+					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
 				}
 
 			}
@@ -8547,6 +8582,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.298039215686275, 0.290196078431373, 0.290196078431373, 1.0 ],
+					"color" : [ 0.0, 1.0, 0.968627450980392, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
