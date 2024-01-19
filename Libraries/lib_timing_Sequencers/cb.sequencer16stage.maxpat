@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 4,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 874.0, 79.0, 772.0, 937.0 ],
+		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,38 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"attr" : "embed",
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
 					"id" : "obj-19",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 547.0, 252.0, 150.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"linecount" : 9,
+					"linecount" : 36,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 525.0, 150.0, 127.0 ],
-					"text" : "max cookbook\n\nA 16-stage note sequencer\n\narpeggiator for bass \n\nalt + 1 save as first sequence"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 713.0, 45.0, 45.0 ]
+					"patching_rect" : [ 626.0, 84.0, 571.0, 503.0 ],
+					"text" : "A 16-stage note sequencer\n\n sequencer16stage.maxpat\nAnalog synthesizers of the early 1970s often included a \"sequencer\" capable of cycling through a timed sequence of 16 different voltages (which would most commonly be used to control the pitch of an oscillator). This likely explains why so many fast 16-note repeating patterns appeared in electronic music of that time period. Most voltage sequencers allowed the user to set the voltage for each step of the sequence, and to adjust the timing interval (rate) of the sequence. This patch imitates those sequencers, using MIDI pitches instead of a voltage-controlled oscillator.\n\nThe MIDI pitches and velocities of the sequence are stored in table objects (arrays), one for the pitches and one for the velocities. The table objects are set (in their Inspector) to \"Save Data with Patcher\", so they already contain a pattern of pitches and velocities when the patch is opened. You can play the sequence by turning on the metro, and you can change the speed of the sequence by changing the rate of the metro.\n\nYou can change the contents of a table by sending it a set message. The first argument of set is the index where you want to start saving values, and the subsequent numbers will be stored beginning at that index. So, in this example, when you click on one of the message boxes that contains a list of pitches, it gets the words set 0 placed before it (indicating to set values of the table, starting at index 0) and thus replaces the contents of the pitch table.\n\nSome sequencers (notably on Buchla synthesizers of that period) allowed the user to change the starting and ending stage of the sequence. In this patch we use number boxes to set the minimum and maximum output of the counter object, causing it to cycle through specific numbers within the 0-15 range. (Note that we also use the output of the \"min\" and \"max\" number boxes to set each other's minimum and maximum values, so that the minimum will always be less than or equal to the maximum.)\n\nThe visual display object on the lower right is a radiogroup object. It's normally used as a user interface object that allows a user to choose one of several items, but in this case we're just using it as a handy way to display which stage of the sequence is currently playing.\n\nTurn on the metro, experiment with different rates, change the pitch content, and experiment with different \"min\" and \"max\" limits for the counter.\n\nChapter: \n"
 				}
 
 			}
@@ -371,7 +346,7 @@
 ,
 					"showeditor" : 0,
 					"size" : 16,
-					"table_data" : [ 0, 104, 108, 102, 96, 91, 81, 70, 61, 54, 48, 41, 32, 24, 15, 10, 32 ],
+					"table_data" : [ 0, 127, 88, 99, 76, 84, 63, 115, 50, 96, 83, 70, 112, 94, 82, 120, 59 ],
 					"text" : "table"
 				}
 
@@ -633,13 +608,6 @@
 					"midpoints" : [ 441.5, 144.0, 534.5, 144.0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-19", 0 ]
 				}
 
 			}

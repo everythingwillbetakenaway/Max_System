@@ -1,0 +1,99 @@
+{
+	"pattrstorage" : 	{
+		"name" : "twocloudspresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"twoclouds::onoff" : [ 1 ],
+					"twoclouds::cloud1rate" : [ 6.0 ],
+					"twoclouds::cloud1min" : [ 96 ],
+					"twoclouds::cloud1range" : [ 7 ],
+					"twoclouds::cloud1velocity" : [ 48 ],
+					"twoclouds::cloud1pgm" : [ 11 ],
+					"twoclouds::cloud2rate" : [ 8.0 ],
+					"twoclouds::cloud2min" : [ 36 ],
+					"twoclouds::cloud2range" : [ 7 ],
+					"twoclouds::cloud2velocity" : [ 72 ],
+					"twoclouds::cloud2pgm" : [ 38 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"twoclouds::onoff" : [ 1 ],
+					"twoclouds::cloud1rate" : [ 10.0 ],
+					"twoclouds::cloud1min" : [ 96 ],
+					"twoclouds::cloud1range" : [ 7 ],
+					"twoclouds::cloud1velocity" : [ 64 ],
+					"twoclouds::cloud1pgm" : [ 11 ],
+					"twoclouds::cloud2rate" : [ 12.0 ],
+					"twoclouds::cloud2min" : [ 84 ],
+					"twoclouds::cloud2range" : [ 7 ],
+					"twoclouds::cloud2velocity" : [ 64 ],
+					"twoclouds::cloud2pgm" : [ 38 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"twoclouds::onoff" : [ 1 ],
+					"twoclouds::cloud1rate" : [ 10.0 ],
+					"twoclouds::cloud1min" : [ 84 ],
+					"twoclouds::cloud1range" : [ 19 ],
+					"twoclouds::cloud1velocity" : [ 64 ],
+					"twoclouds::cloud1pgm" : [ 11 ],
+					"twoclouds::cloud2rate" : [ 5.0 ],
+					"twoclouds::cloud2min" : [ 72 ],
+					"twoclouds::cloud2range" : [ 4 ],
+					"twoclouds::cloud2velocity" : [ 48 ],
+					"twoclouds::cloud2pgm" : [ 38 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"twoclouds::onoff" : [ 1 ],
+					"twoclouds::cloud1rate" : [ 4.0 ],
+					"twoclouds::cloud1min" : [ 36 ],
+					"twoclouds::cloud1range" : [ 7 ],
+					"twoclouds::cloud1velocity" : [ 64 ],
+					"twoclouds::cloud1pgm" : [ 11 ],
+					"twoclouds::cloud2rate" : [ 5.0 ],
+					"twoclouds::cloud2min" : [ 48 ],
+					"twoclouds::cloud2range" : [ 10 ],
+					"twoclouds::cloud2velocity" : [ 64 ],
+					"twoclouds::cloud2pgm" : [ 38 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"twoclouds::onoff" : [ 0 ],
+					"twoclouds::cloud1rate" : [ 24.0 ],
+					"twoclouds::cloud1min" : [ 84 ],
+					"twoclouds::cloud1range" : [ 24 ],
+					"twoclouds::cloud1velocity" : [ 116 ],
+					"twoclouds::cloud1pgm" : [ 11 ],
+					"twoclouds::cloud2rate" : [ 20.0 ],
+					"twoclouds::cloud2min" : [ 60 ],
+					"twoclouds::cloud2range" : [ 24 ],
+					"twoclouds::cloud2velocity" : [ 120 ],
+					"twoclouds::cloud2pgm" : [ 34 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
