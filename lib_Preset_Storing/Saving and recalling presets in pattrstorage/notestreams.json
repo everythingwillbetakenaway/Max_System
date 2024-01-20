@@ -1,0 +1,87 @@
+{
+	"pattrstorage" : 	{
+		"name" : "notestreams",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"notespersecond" : [ 16.0 ],
+					"pitchminimum" : [ 60 ],
+					"velocityminimum" : [ 32 ],
+					"pitchrange" : [ 4 ],
+					"velocityrange" : [ 32 ],
+					"panning[1]" : [ 64 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"notespersecond" : [ 24.0 ],
+					"pitchminimum" : [ 83 ],
+					"velocityminimum" : [ 72 ],
+					"pitchrange" : [ 1 ],
+					"velocityrange" : [ 8 ],
+					"panning[1]" : [ 100 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"notespersecond" : [ 8.0 ],
+					"pitchminimum" : [ 24 ],
+					"velocityminimum" : [ 96 ],
+					"pitchrange" : [ 24 ],
+					"velocityrange" : [ 21 ],
+					"panning[1]" : [ 64 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"notespersecond" : [ 64.0 ],
+					"pitchminimum" : [ 84 ],
+					"velocityminimum" : [ 32 ],
+					"pitchrange" : [ 24 ],
+					"velocityrange" : [ 32 ],
+					"panning[1]" : [ 1 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"notespersecond" : [ 32.0 ],
+					"pitchminimum" : [ 24 ],
+					"velocityminimum" : [ 32 ],
+					"pitchrange" : [ 96 ],
+					"velocityrange" : [ 95 ],
+					"panning[1]" : [ 64 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"notespersecond" : [ 4.0 ],
+					"pitchminimum" : [ 60 ],
+					"velocityminimum" : [ 1 ],
+					"pitchrange" : [ 0 ],
+					"velocityrange" : [ 126 ],
+					"panning[1]" : [ 32 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

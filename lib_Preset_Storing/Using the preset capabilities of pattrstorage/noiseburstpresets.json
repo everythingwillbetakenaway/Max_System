@@ -1,0 +1,265 @@
+{
+	"pattrstorage" : 	{
+		"name" : "noiseburstpresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Q_range" : [ 0 ],
+					"amplitude_range" : [ 24 ],
+					"max_amplitude" : [ -36 ],
+					"min_Q" : [ 100 ],
+					"min_pitch" : [ 108 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 0.2 ],
+					"pitch_range" : [ 1 ],
+					"rate" : [ 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Q_range" : [ 40 ],
+					"amplitude_range" : [ 0 ],
+					"max_amplitude" : [ 0 ],
+					"min_Q" : [ 60 ],
+					"min_pitch" : [ 96 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 1.0 ],
+					"pitch_range" : [ 24 ],
+					"rate" : [ 8.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Q_range" : [ 10 ],
+					"amplitude_range" : [ 0 ],
+					"max_amplitude" : [ -18 ],
+					"min_Q" : [ 90 ],
+					"min_pitch" : [ 101 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 0.2 ],
+					"pitch_range" : [ 7 ],
+					"rate" : [ 12.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Q_range" : [ 80 ],
+					"amplitude_range" : [ 60 ],
+					"max_amplitude" : [ 0 ],
+					"min_Q" : [ 20 ],
+					"min_pitch" : [ 36 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 1.0 ],
+					"pitch_range" : [ 60 ],
+					"rate" : [ 36.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"Q_range" : [ 60 ],
+					"amplitude_range" : [ 24 ],
+					"max_amplitude" : [ -6 ],
+					"min_Q" : [ 20 ],
+					"min_pitch" : [ 72 ],
+					"panning_centroid" : [ 0.2 ],
+					"panning_spread" : [ 0.6 ],
+					"pitch_range" : [ 24 ],
+					"rate" : [ 10.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"Q_range" : [ 60 ],
+					"amplitude_range" : [ 36 ],
+					"max_amplitude" : [ -12 ],
+					"min_Q" : [ 20 ],
+					"min_pitch" : [ 60 ],
+					"panning_centroid" : [ 0.8 ],
+					"panning_spread" : [ 0.5 ],
+					"pitch_range" : [ 60 ],
+					"rate" : [ 200.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"Q_range" : [ 90 ],
+					"amplitude_range" : [ 36 ],
+					"max_amplitude" : [ -12 ],
+					"min_Q" : [ 10 ],
+					"min_pitch" : [ 36 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 0.3 ],
+					"pitch_range" : [ 72 ],
+					"rate" : [ 4.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"Q_range" : [ 40 ],
+					"amplitude_range" : [ 12 ],
+					"max_amplitude" : [ 0 ],
+					"min_Q" : [ 50 ],
+					"min_pitch" : [ 60 ],
+					"panning_centroid" : [ 0.9 ],
+					"panning_spread" : [ 0.7 ],
+					"pitch_range" : [ 12 ],
+					"rate" : [ 16.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"Q_range" : [ 0 ],
+					"amplitude_range" : [ 48 ],
+					"max_amplitude" : [ 0 ],
+					"min_Q" : [ 100 ],
+					"min_pitch" : [ 108 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 0.9 ],
+					"pitch_range" : [ 12 ],
+					"rate" : [ 1000.0 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"Q_range" : [ 20 ],
+					"amplitude_range" : [ 48 ],
+					"max_amplitude" : [ -6 ],
+					"min_Q" : [ 90 ],
+					"min_pitch" : [ 36 ],
+					"panning_centroid" : [ 0.25 ],
+					"panning_spread" : [ 0.9 ],
+					"pitch_range" : [ 84 ],
+					"rate" : [ 9.0 ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"Q_range" : [ 100 ],
+					"amplitude_range" : [ 6 ],
+					"max_amplitude" : [ -6 ],
+					"min_Q" : [ 0 ],
+					"min_pitch" : [ 24 ],
+					"panning_centroid" : [ 0.75 ],
+					"panning_spread" : [ 0.5 ],
+					"pitch_range" : [ 108 ],
+					"rate" : [ 1.0 ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"data" : 				{
+					"Q_range" : [ 50 ],
+					"amplitude_range" : [ 6 ],
+					"max_amplitude" : [ -6 ],
+					"min_Q" : [ 50 ],
+					"min_pitch" : [ 24 ],
+					"panning_centroid" : [ 0.25 ],
+					"panning_spread" : [ 0.5 ],
+					"pitch_range" : [ 108 ],
+					"rate" : [ 6.0 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"Q_range" : [ 20 ],
+					"amplitude_range" : [ 30 ],
+					"max_amplitude" : [ -6 ],
+					"min_Q" : [ 70 ],
+					"min_pitch" : [ 84 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 0.3 ],
+					"pitch_range" : [ 108 ],
+					"rate" : [ 10.0 ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"data" : 				{
+					"Q_range" : [ 20 ],
+					"amplitude_range" : [ 30 ],
+					"max_amplitude" : [ -18 ],
+					"min_Q" : [ 70 ],
+					"min_pitch" : [ 96 ],
+					"panning_centroid" : [ 0.1 ],
+					"panning_spread" : [ 0.0 ],
+					"pitch_range" : [ 5 ],
+					"rate" : [ 32.0 ]
+				}
+
+			}
+,
+			"15" : 			{
+				"id" : 15,
+				"data" : 				{
+					"Q_range" : [ 0 ],
+					"amplitude_range" : [ 24 ],
+					"max_amplitude" : [ 0 ],
+					"min_Q" : [ 60 ],
+					"min_pitch" : [ 30 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 0.2 ],
+					"pitch_range" : [ 66 ],
+					"rate" : [ 8.0 ]
+				}
+
+			}
+,
+			"16" : 			{
+				"id" : 16,
+				"data" : 				{
+					"Q_range" : [ 10 ],
+					"amplitude_range" : [ 24 ],
+					"max_amplitude" : [ -6 ],
+					"min_Q" : [ 90 ],
+					"min_pitch" : [ 48 ],
+					"panning_centroid" : [ 0.5 ],
+					"panning_spread" : [ 0.8 ],
+					"pitch_range" : [ 108 ],
+					"rate" : [ 6.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
