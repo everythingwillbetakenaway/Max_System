@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 304.0, 264.0, 1534.0, 114.0 ],
+					"text" : "A variation on the simple envelope follower\n\n envelopefollower2~.maxpat\nThis patch is very similar to the \"Simple envelope follower\", with the difference that in this patch the line~ object's time of interpolation to get to a detected peak value can be different from the peakamp~ object's interval of evaluation. If, for example, the peakamp~ interval is 10 ms and the line~ ramp time is 2.5 ms, the envelope follower latency will range from only 2.5 to 12.5 ms.\n\nChapter: \n"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 105.0, 1532.0, 114.0 ],
+					"patching_rect" : [ 320.0, 105.0, 1534.0, 114.0 ],
 					"text" : "A variation on the simple envelope follower\n\n envelopefollower2~.maxpat\nThis patch is very similar to the \"Simple envelope follower\", with the difference that in this patch the line~ object's time of interpolation to get to a detected peak value can be different from the peakamp~ object's interval of evaluation. If, for example, the peakamp~ interval is 10 ms and the line~ ramp time is 2.5 ms, the envelope follower latency will range from only 2.5 to 12.5 ms.\n\nChapter: \n"
 				}
 
