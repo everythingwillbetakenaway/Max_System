@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 410.0, 834.0, 150.0, 33.0 ],
+					"text" : "yada siktir et direk velocity % yap gec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 410.0, 761.0, 153.0, 60.0 ],
+					"text" : "duz bir cizgi dusun, 0-127 arasi, ne kadar cok varsa ona bolsun sen en uctakini ayarliosun"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-62",
 					"linecount" : 3,
 					"maxclass" : "comment",

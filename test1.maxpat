@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,227 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 870.0, 480.0, 59.0, 22.0 ],
+					"text" : "gamepad"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "matrixctrl",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "list", "list" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1038.0, 399.0, 130.0, 66.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1369.0, 215.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1289.0, 290.0, 150.0, 74.0 ],
+					"text" : "gate, switch, selector~, gate~: 'next' message to iterate through connections\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1190.0, 479.0, 150.0, 33.0 ],
+					"text" : "adsr~: 'triggermode' attribute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1135.0, 697.0, 150.0, 47.0 ],
+					"text" : "• midiselect: @hires attribute for pitchbend\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1105.0, 620.0, 150.0, 47.0 ],
+					"text" : "• MIDI: ‘matchport’ attribute\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1250.0, 675.0, 150.0, 60.0 ],
+					"text" : "sfrecord~: 'sortloop' attribute (most recent recording is added to the beginning of the file)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 965.0, 463.0, 150.0, 20.0 ],
+					"text" : "zl: 'fuzzy' attribute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 0,
+					"filename" : "helpname.js",
+					"id" : "obj-53",
+					"ignoreclick" : 1,
+					"jsarguments" : [ "mcp.record~" ],
+					"maxclass" : "jsui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1240.0, 555.0, 268.423980712890625, 57.599853515625 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 317.0, 911.0, 150.0, 20.0 ],
+					"text" : "butun beap objelerine bak"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1060.0, 560.0, 63.0, 22.0 ],
+					"text" : "string.split"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1186.0, 408.0, 167.0, 20.0 ],
+					"text" : "ve array yazinca cikan objeler"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1205.0, 376.0, 150.0, 20.0 ],
+					"text" : "reference filedaki"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1150.0, 376.0, 40.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "array"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 728.0, 438.5, 40.0, 22.0 ],
+					"text" : "twist~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 535.0, 444.0, 32.0, 22.0 ],
+					"text" : "mtof"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1035.0, 262.0, 150.0, 33.0 ],
+					"text" : "octave adderi ekle 3 parametreli"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -48,8 +269,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -694,8 +915,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -868,8 +1089,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -980,7 +1201,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 314.0, 152.0, 73.0, 22.0 ],
 													"text" : "random 128"
 												}
@@ -1052,7 +1273,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 134.0, 152.0, 73.0, 22.0 ],
 													"text" : "random 128"
 												}
@@ -1256,8 +1477,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1853,8 +2074,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2977,8 +3198,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3207,8 +3428,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4007,8 +4228,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4599,14 +4820,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 45.0, 540.0, 372.0 ],
+						"rect" : [ 0.0, 28.0, 1920.0, 1052.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -4635,6 +4856,18 @@
 						"subpatcher_template" : "Untitled1",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 530.0, 500.0, 150.0, 85.0 ],
+									"text" : "The new chooser UI object displays a scrolling list, useful for file browsing interfaces and more"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-47",
 									"maxclass" : "comment",
@@ -4865,11 +5098,12 @@
 									"id" : "obj-74",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 423.25, 390.0, 50.5, 28.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -4955,7 +5189,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 590.0, 700.0, 100.0, 100.0 ]
+									"patching_rect" : [ 510.0, 540.0, 100.0, 100.0 ]
 								}
 
 							}
@@ -5306,8 +5540,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 553.25, 445.5, 65.0, 20.0 ],
-					"text" : "scl_reader"
+					"patching_rect" : [ 553.25, 445.5, 93.0, 20.0 ],
+					"text" : "scala okuyabilio"
 				}
 
 			}
@@ -5323,8 +5557,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5436,11 +5670,12 @@
 									"id" : "obj-114",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 786.0, 1701.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -5543,8 +5778,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6215,6 +6450,7 @@
 , 							{
 								"box" : 								{
 									"addpoints" : [ 0.0, 0.0, 0, 324.468078999999989, 0.773333, 0, 404.255310000000009, 0.253333, 0, 590.425536999999963, 0.786667, 0, 904.255310000000009, 0.613333, 0, 1000.0, 0.0, 0 ],
+									"classic_curve" : 1,
 									"id" : "obj-137",
 									"maxclass" : "function",
 									"numinlets" : 1,
@@ -7141,19 +7377,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 489.0, 1161.0, 462.0, 221.0 ],
 									"text" : "If you try, while in edit mode, to select all of the objects lying above a panel using the technique illustrated earlier, you will notice that it is nearly impossible to not also select the panel itself. This happens because the panel. although located at a lower level, is still an object that can be dragged, modified, or deleted like the others. To resolve this problem, the quickest method is to move the panel to another spot in the patcher window, to select the remaining objects and work with them, and finally, to return the panel to its original location. But if we need to interact with the objects in the panel more often, a more elegant and more accommodating technique is to assign the panel to an even-lower level- the so-called “background level” which is always present behind the normal foreground. To do this, select the panel and then invoke the “Include in Background” item in the Arrange menu. After this toggling the “Lock Background”item from the View menu or pressing <Command-Alt-I/Control-Alt-I> will “freeze” all of the background objects, making them unelectable in any mode. To unfreeze the objects, toggle “Lock Background” or press <Command-Alt-I/Control-Alt-I> again, which will uncheck the option in the View menu and leave the objects accessible once again."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-42",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 630.0, 988.0, 150.0, 20.0 ],
-									"text" : "Good for your cramps"
 								}
 
 							}
@@ -8307,8 +8530,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8869,8 +9092,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8911,7 +9134,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 406.0, 92.0, 150.0, 47.0 ],
+									"patching_rect" : [ 406.0, 92.0, 152.0, 47.0 ],
 									"text" : "chooser objesini kullan sfplay ile boylece duyarsin neler oldugunu, calmadan"
 								}
 
@@ -9671,6 +9894,7 @@
 , 			{
 				"box" : 				{
 					"addpoints" : [ 111.702127659574472, 0.493333333333333, 0, 287.2340425531915, 0.48, 0, 287.2340425531915, 0.12, 0, 553.191489361702111, 0.24, 0, 744.680851063829778, 0.626666666666667, 0, 1000.0, 0.16, 0, 1000.0, 0.0, 0 ],
+					"classic_curve" : 1,
 					"id" : "obj-78",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -9734,8 +9958,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9769,7 +9993,306 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-76",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 107.0, 553.0, 150.0, 20.0 ],
+									"text" : "stash~: @extend attribute"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-74",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 394.0, 190.5, 150.0, 33.0 ],
+									"text" : " elapsed + predicted phasor~ time"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-72",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 548.0, 184.0, 150.0, 33.0 ],
+									"text" : "sync~: @rtport attribute for direct MIDI input"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-70",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 318.0, 477.0, 42.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"name" : "",
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0,
+										"range" : 128,
+										"size" : 128
+									}
+,
+									"text" : "table~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-69",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 288.0, 426.0, 34.0, 22.0 ],
+									"text" : "limi~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-68",
+									"items" : "<empty>",
+									"maxclass" : "chooser",
+									"numinlets" : 1,
+									"numoutlets" : 6,
+									"outlettype" : [ "", "", "", "", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 172.0, 8.0, 100.0, 100.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-66",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 863.0, 201.0, 46.0, 22.0 ],
+									"text" : "frame~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-65",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"patching_rect" : [ 547.0, 380.0, 50.0, 22.0 ],
+									"text" : "console"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"addranges" : [ 0.056701, 0.395062, 0.493827, 0.0, 0.350515, 0.111111, 0.222222, 0.847222, 0.582474, 0.049383, 1.0, 0.233766, 0.628571428571429, 0.068948571812712, 0.942700639432328, 0.25008036570593, 0.989691, 0.222222, 0.493827, 0.0 ],
+									"id" : "obj-64",
+									"maxclass" : "multirange",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "float", "", "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 394.0, 586.0, 496.0, 195.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-61",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "dictionary", "", "" ],
+									"patching_rect" : [ 732.0, 161.0, 41.0, 22.0 ],
+									"text" : "matrix"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-59",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 632.0, 335.0, 82.0, 22.0 ],
+									"text" : "mc.generate~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-58",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 673.0, 213.0, 150.0, 47.0 ],
+									"text" : "https://docs.cycling74.com/max8/vignettes/mc_mcvsmcs"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-56",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 744.0, 330.0, 77.0, 22.0 ],
+									"text" : "mc.selector~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 709.0, 299.0, 69.0, 22.0 ],
+									"text" : "mcs.wave~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "midievent" ],
+									"patching_rect" : [ 622.0, 415.0, 90.0, 22.0 ],
+									"text" : "mc.midiplayer~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-49",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 88.0, 480.0, 62.0, 20.0 ],
+									"text" : "!!!!!!!!!!!!!!!!"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 107.0, 516.0, 150.0, 20.0 ],
+									"text" : "burasi hep yeni"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-45",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "multichannelsignal", "multichannelsignal", "list", "int" ],
+									"patching_rect" : [ 626.0, 257.0, 65.0, 22.0 ],
+									"text" : "mc.chord~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 603.0, 469.0, 100.0, 22.0 ],
+									"text" : "mc.snowphasor~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 603.0, 514.0, 78.0, 22.0 ],
+									"text" : "mc.snowfall~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"linecount" : 10,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 705.0, 439.0, 154.0, 141.0 ],
+									"text" : "Inspired by particle systems, mc.snowphasor~ generates probabilistic ramps from 0-1 that can be used to drive sample playback, granular clouds, and more. Use with mc.snowfall~ to create a full signal-based particle engine."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "multichannelsignal", "multichannelsignal", "dictionary" ],
+									"patching_rect" : [ 356.0, 539.0, 72.0, 22.0 ],
+									"text" : "mc.pattern~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 103.0, 646.0, 150.0, 20.0 ],
+									"text" : "bu ikisi 8.3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-38",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 464.0, 40.0, 150.0, 114.0 ],
+									"text" : "Free your rhythms with the simple yet powerful what~ object. Give it a list of floating-point values between 0. and 1. to get impulse signals out when the incoming ramp passes through those values."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-36",
 									"maxclass" : "newobj",
@@ -9779,8 +10302,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11608,8 +12131,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12838,7 +13361,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 343.0, 124.0, 40.0, 22.0 ],
+									"patching_rect" : [ 35.0, 655.0, 40.0, 22.0 ],
 									"text" : "twist~"
 								}
 
@@ -12895,7 +13418,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 39.0, 549.0, 50.5, 22.0 ],
+									"patching_rect" : [ 38.75, 553.0, 50.5, 22.0 ],
 									"text" : "stash~"
 								}
 
@@ -13171,7 +13694,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 85.0, 71.5, 131.0, 47.0 ],
+									"patching_rect" : [ 656.0, 78.0, 131.0, 47.0 ],
 									"text" : "herhangibi bir CV sinyalinden trig extract edilebilir, dene"
 								}
 
@@ -13183,7 +13706,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
-									"patching_rect" : [ 34.0, 84.0, 41.0, 22.0 ],
+									"patching_rect" : [ 605.0, 90.0, 41.0, 22.0 ],
 									"text" : "what~"
 								}
 
@@ -13681,6 +14204,12 @@
 				"name" : "BPswitch.maxpat",
 				"bootpath" : "C74:/help/max",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "helpname.js",
+				"bootpath" : "C74:/help/resources",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
