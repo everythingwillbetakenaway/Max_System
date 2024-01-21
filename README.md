@@ -1,6 +1,6 @@
 # Max_System
 
-Eurorack Techniques
+Eurorack Techniques (SIRALA)
 
 //Bu gate trigleri, post-volume send’de yap boylece, trigler volume envelope’u takip354 eder
 //vpme.de Trig31 Trigger to MIDI
@@ -10,11 +10,17 @@ Eurorack Techniques
 // bir trigger kanali olsun, lfolar ve envelopelar icin, drum triglerininkini alabilidigin bir CC matrixide olsun,
 //FFTease package
 // max tutoriallarda Max MIDI tutorial midi kaydetme var, onu manipule etme bak
+//es-3 latency.'yi hesapla, boylece gate duck yapabilirsin drumlar arasi, ne kadar surede trigger olusuo vca'de, ayni zamanda ring modulation ve wah effect icinde kullanabilirsin, baska dusun, yani es-3'den gikan EXPANDER ESX-8CV YUTUYOR MU ATTACKLERI??
+// LANDR Mastering Plugin satin al
 
-MACRO CV Modulator
+
+“MACRO KNOB” CV Modulator
 +CV out’lari sectigin bir ara girici modulator olsun, Makrov modulunden ornek al, 
 +O glitch functioni gibi ekleme yap, dedicated kanal, 
 + Aligot modulunede bak
++ Abletonda Macro knob var, orada min ve max’ini belirleme var, %’lik olarak 100 ile -100 arasinda degisio, kendi degeride yuzdelik, bir dusun part-1 macro knob bakabilirsin
++to keep things simple the signal used in this device to control parameters is constant it's just the value of the dial yazio 
++ Makrowdan fikirler al
 
 BU PUNCH NOLCAK PUNCH
 hihat fillers ile punch'i birlestir, sol sag pitch aralarinda gecis yuksek pitch ile
@@ -30,6 +36,19 @@ Mixer VCA fikirleri
 + Velocity?
 + Mixer cv icin crossfade yapmavi saglayan cv out sistemi olsun, dusun, mixerden mixere gore,
 + Befacodaki alabilirsin mixer icin
+
+Patching Panda Particles Clone
+
+Patching Panda Ephemere Clone
++En son CV cikisina bundan koy
++Scene scene yaptigin bir sistem olabilir,
++Playback speed must
++Segmentlere bolebilir ve kucuk parcalarinda loop edebilirsin,
++Orijinali ile arasinda gecis yapabilir,
++Bunun gibi channellar olur, iyi bir cv modulation gibi
++CC’lerden birisine bu scene kaydedebilir, yani birkac tane cv kaydedebilirsin,
++Yani boyle en son cv’ye mega bir katman daha katmak icin iyi olabilir, 
++ Tabi butun sistem kurulduktan sonra olcak bu
 
 ——————————————————————————————————————————
 
@@ -253,3 +272,10 @@ Ses kartindan cikan giren sound ilk uad plugin, sonra ise scene scene kaydedilmi
 +Bunu Faderfox UC4’e bagla ve bu logic controllerin olsun
 +Bir tane cevirmeli bisey al timeline icin behringer X-TOUCH ONE, sehpanin altina ufak bir standa koy kahve tutma yerlerinden bak
 +Mesela morphagene filan hepsini ayri alacak, diger enstrumanlarida ayri alacak, tek switch ile multiediting yapilabilecek,  butun orkestrayi filanda alacak, ama hepsi preamp oncesi.
++ABI cb.chorusing OBJECT COK GUCLU, KESIN KULLAN HER KANALDA, MEGA AMK, out bonds chorus ve kanal sayisi arttirma ekle
++Flangelide var cb.sfflange
++Phase distortion orneginede bak, bunun ile groove objesi filan
++Poly phase distortion ornegi
++cb.manyunrelatedLFOs deconstruct
++Using gate to route messages, FIKIR iridium ile prophet arasinda switch yap midi notalari arasinda, drum ilede cevir arasini, midi nota ekleme filan yap sonrasinda bu en onceki sey. 1-0 gibi cirklondan, yada direk 1-5 arasi instrument yap, ona gore secsin, 
++https://music.arts.uci.edu/dobrian/maxcookbook/using-gate-route-messages
