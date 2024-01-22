@@ -2,7 +2,7 @@
 Eurorack Techniques (SIRALA)
 
 
-##Octave Adder
+## Octave Adder
 + Velocity ekle table ile
 
 
