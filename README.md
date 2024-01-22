@@ -1,6 +1,10 @@
 # Max_System
-
 Eurorack Techniques (SIRALA)
+
+
+##Octave Adder
++ Velocity ekle table ile
+
 
 //Bu gate trigleri, post-volume send’de yap boylece, trigler volume envelope’u takip354 eder
 //vpme.de Trig31 Trigger to MIDI
@@ -279,3 +283,12 @@ Ses kartindan cikan giren sound ilk uad plugin, sonra ise scene scene kaydedilmi
 +cb.manyunrelatedLFOs deconstruct
 +Using gate to route messages, FIKIR iridium ile prophet arasinda switch yap midi notalari arasinda, drum ilede cevir arasini, midi nota ekleme filan yap sonrasinda bu en onceki sey. 1-0 gibi cirklondan, yada direk 1-5 arasi instrument yap, ona gore secsin, 
 +https://music.arts.uci.edu/dobrian/maxcookbook/using-gate-route-messages
+
+
+
+
+
+
+
+
+

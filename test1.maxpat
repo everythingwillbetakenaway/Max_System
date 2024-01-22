@@ -40,6 +40,67 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 1428.0, 923.0, 73.0, 22.0 ],
+					"text" : "unjoin 3 @2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1428.0, 887.0, 113.0, 22.0 ],
+					"text" : "join 3 @triggers 2 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.0, 979.0, 50.0, 22.0 ],
+					"text" : "123"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 281.0, 944.0, 33.0, 22.0 ],
+					"text" : "r foo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 265.0, 904.0, 49.0, 35.0 ],
+					"text" : ";\rfoo 123"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -157,7 +218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1240.0, 555.0, 268.423980712890625, 57.599853515625 ]
+					"patching_rect" : [ 1330.288009643554688, 389.2000732421875, 268.423980712890625, 57.599853515625 ]
 				}
 
 			}
@@ -167,7 +228,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 911.0, 150.0, 20.0 ],
+					"patching_rect" : [ 356.0, 945.0, 150.0, 20.0 ],
 					"text" : "butun beap objelerine bak"
 				}
 
@@ -2415,18 +2476,6 @@
 									"outlettype" : [ "int", "int" ],
 									"patching_rect" : [ 14.0, 459.0, 34.0, 22.0 ],
 									"text" : "histo"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-79",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 411.0, 32.0, 22.0 ],
-									"text" : "gate"
 								}
 
 							}
@@ -10252,7 +10301,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 705.0, 439.0, 154.0, 141.0 ],
+									"patching_rect" : [ 705.0, 439.0, 156.0, 141.0 ],
 									"text" : "Inspired by particle systems, mc.snowphasor~ generates probabilistic ramps from 0-1 that can be used to drive sample playback, granular clouds, and more. Use with mc.snowfall~ to create a full signal-based particle engine."
 								}
 
@@ -10287,7 +10336,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 464.0, 40.0, 150.0, 114.0 ],
+									"patching_rect" : [ 464.0, 40.0, 154.0, 114.0 ],
 									"text" : "Free your rhythms with the simple yet powerful what~ object. Give it a list of floating-point values between 0. and 1. to get impulse signals out when the incoming ramp passes through those values."
 								}
 
@@ -14174,6 +14223,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 1 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
