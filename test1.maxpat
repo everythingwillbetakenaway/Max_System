@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-64",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1002.0, 335.0, 150.0, 33.0 ],
+					"text" : "mira mute sistemi solo sistemi"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -282,7 +294,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.788009643554688, 122.5, 268.423980712890625, 57.599853515625 ]
+					"patching_rect" : [ 10.0, 10.0, 268.423980712890625, 57.599853515625 ]
 				}
 
 			}
