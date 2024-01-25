@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 28.0, 1639.0, 1052.0 ],
+		"rect" : [ 0.0, 28.0, 1920.0, 1052.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 914.0, 224.0, 150.0, 33.0 ],
+					"text" : "groove ile drum sampler yap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1129.0, 69.0, 38.0, 22.0 ],
+					"text" : "spray"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-64",
 					"linecount" : 2,
@@ -1649,7 +1673,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-80",
@@ -3123,18 +3146,6 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 14.0, 149.0, 41.0, 22.0 ],
 									"text" : "buddy"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 14.0, 124.0, 42.0, 22.0 ],
-									"text" : "bondo"
 								}
 
 							}
@@ -4981,6 +4992,7 @@
 						"style" : "",
 						"subpatcher_template" : "Untitled1",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -5013,18 +5025,6 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 100.0, 440.0, 43.0, 28.0 ],
 									"text" : "spray"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-51",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "list" ],
-									"patching_rect" : [ 331.5, 410.0, 64.0, 28.0 ],
-									"text" : "listfunnel"
 								}
 
 							}
@@ -5157,18 +5157,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 410.0, 150.0, 36.0, 28.0 ],
 									"text" : "gate"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-64",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "list" ],
-									"patching_rect" : [ 340.0, 130.0, 47.0, 28.0 ],
-									"text" : "funnel"
 								}
 
 							}
@@ -5364,18 +5352,6 @@
 									"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int", "int" ],
 									"patching_rect" : [ 270.0, 350.0, 103.0, 28.0 ],
 									"text" : "borax"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-89",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 150.0, 330.0, 47.0, 28.0 ],
-									"text" : "bondo"
 								}
 
 							}
@@ -8691,7 +8667,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 230.0, 112.0, 35.0, 22.0 ],
+									"text" : "avg~"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-29",
 									"maxclass" : "comment",
@@ -8896,8 +8885,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 135.0, 150.0, 20.0 ],
-									"text" : "write to buffer"
+									"patching_rect" : [ 435.0, 136.0, 150.0, 20.0 ],
+									"text" : "write to buffer !!!!!"
 								}
 
 							}
@@ -10119,7 +10108,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-76",
