@@ -1,44 +1,36 @@
 # Max_System
-Eurorack Techniques (SIRALA)
-
 
 ## Octave Adder
 + Velocity ekle table ile
++ Input arguments object
 
-
-//Bu gate trigleri, post-volume send’de yap boylece, trigler volume envelope’u takip354 eder
-//vpme.de Trig31 Trigger to MIDI
-//Bu buchladaki max min seklinde yapabilirsin, tiptopa bak
-// butun cvleri kontrol ettigin makrow gibi bisey yap master channel,
-//Drum Velocityleri gate release yap, ve timing i mukemmelestir, 
-// bir trigger kanali olsun, lfolar ve envelopelar icin, drum triglerininkini alabilidigin bir CC matrixide olsun,
-//FFTease package
-// max tutoriallarda Max MIDI tutorial midi kaydetme var, onu manipule etme bak
-//es-3 latency.'yi hesapla, boylece gate duck yapabilirsin drumlar arasi, ne kadar surede trigger olusuo vca'de, ayni zamanda ring modulation ve wah effect icinde kullanabilirsin, baska dusun, yani es-3'den gikan EXPANDER ESX-8CV YUTUYOR MU ATTACKLERI??
-// LANDR Mastering Plugin satin al
-
-
-“MACRO KNOB” CV Modulator
-+CV out’lari sectigin bir ara girici modulator olsun, Makrov modulunden ornek al, 
-+O glitch functioni gibi ekleme yap, dedicated kanal, 
+## “MACRO KNOB” CV Modulator
++ CV out’lari sectigin bir ara girici modulator olsun, Makrov modulunden ornek al, 
++ O glitch functioni [abletondaki] gibi ekleme yap, dedicated kanal, 
 + Aligot modulunede bak
 + Abletonda Macro knob var, orada min ve max’ini belirleme var, %’lik olarak 100 ile -100 arasinda degisio, kendi degeride yuzdelik, bir dusun part-1 macro knob bakabilirsin
-+to keep things simple the signal used in this device to control parameters is constant it's just the value of the dial yazio 
-+ Makrowdan fikirler al
++ to keep things simple the signal used in this device to control parameters is constant it's just the value of the dial yazio 
++ Universal bir mantıki olsun, mesela ass8 pitch ile plonk’u birbirine baliycan pitchlerini ayni anda dusurme, bu tool ile yap, 
 
-BU PUNCH NOLCAK PUNCH
-hihat fillers ile punch'i birlestir, sol sag pitch aralarinda gecis yuksek pitch ile
+## Patching Panda Punch & Chromophone
++ Standalone ve microtuning on.
++ Delay between left right, 
++ Bu Quadrax gibi ratchetli seyleri kullanabilirsin
++ Manual’ini iyi calis
 
-BU VELOCITY’LER NOLCAK MATRIX SISTEMI
+## Velocity & Matrix Sistemi
++ Bu gate trigleri, post-volume send’de yap boylece, trigler volume envelope’u takip354 eder
 
-VCA Fikirleri
-+ Ducker?
+## VCA Fikirleri
++ Ducker
 + Mute Solo
 
-Mixer VCA fikirleri
+## Mixer VCA fikirleri
 + LFO girip degisik denemeler,  
 + Velocity?
 + Mixer cv icin crossfade yapmavi saglayan cv out sistemi olsun, dusun, mixerden mixere gore,
++ O sistem !- 1 cv, modulation for mixers seklinde kurulacak
+	- ABC
 + Befacodaki alabilirsin mixer icin
 
 Patching Panda Particles Clone
@@ -283,6 +275,12 @@ Ses kartindan cikan giren sound ilk uad plugin, sonra ise scene scene kaydedilmi
 +cb.manyunrelatedLFOs deconstruct
 +Using gate to route messages, FIKIR iridium ile prophet arasinda switch yap midi notalari arasinda, drum ilede cevir arasini, midi nota ekleme filan yap sonrasinda bu en onceki sey. 1-0 gibi cirklondan, yada direk 1-5 arasi instrument yap, ona gore secsin, 
 +https://music.arts.uci.edu/dobrian/maxcookbook/using-gate-route-messages
+
+//vpme.de Trig31 Trigger to MIDI
+//Bu buchladaki max min seklinde yapabilirsin, tiptopa bak
+//Drum Velocityleri gate release yap, ve timing i mukemmelestir, 
+// bir trigger kanali olsun, lfolar ve envelopelar icin, drum triglerininkini alabilidigin bir CC matrixide olsun,
+//es-3 latency.'yi hesapla, boylece gate duck yapabilirsin drumlar arasi, ne kadar surede trigger olusuo vca'de, ayni zamanda ring modulation ve wah effect icinde kullanabilirsin, baska dusun, yani es-3'den gikan EXPANDER ESX-8CV YUTUYOR MU ATTACKLERI??
 
 
 

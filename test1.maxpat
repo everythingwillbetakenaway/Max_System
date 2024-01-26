@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1185.0, 18.0, 265.0, 20.0 ],
+					"text" : "Max ekranin yarisi patch alani obur yarisi kontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"linecount" : 2,
 					"maxclass" : "comment",
