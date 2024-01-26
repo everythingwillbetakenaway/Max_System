@@ -6,15 +6,6 @@
 
 ————————————
 
-### Slew Master Effect
-	+ Doepfer A-171-4 gibi Master effect’e tek knob herseyin slewli halini yap, ayni sekilde bu abletondaki randomness’i da yap, 16. step’e koyarsin mega mega
-	+ Doepfer A-171-4 gibi Master effect’e tek knob herseyin slewli halini yap, ayni sekilde bu abletondaki randomness’i da yap, 16. step’e koyarsin mega mega
-	+ CC’leride dusun
-
-
-### Octave Adder
-	+ ABC
-
 ## Octave Adder
 + Velocity ekle table ile
 + Input arguments object
@@ -150,14 +141,14 @@
 		- ve before after ekleme yap // Before after ufak circuit bent
 
 ## MaxCore Sistemi: Icinde Granular In & Out 
-	+ Initial olarak sadece drumda deneyebilirsin, yada drum’in bir kanalı, intellijel 4x ilede olablr, yada Happy nerding yeter veya Quad VCA
-	+Kitaptan kesin bakman gerekiyor buna
-	+ Buffer olan yerlerde scene’ scene kaydetmeyi yapabilirsin
-		- Post songmode cila
++ Initial olarak sadece drumda deneyebilirsin, yada drum’in bir kanalı, intellijel 4x ilede olablr, yada Happy nerding yeter veya Quad VCA
++ Kitaptan kesin bakman gerekiyor buna
++ Buffer olan yerlerde scene’ scene kaydetmeyi yapabilirsin
+	- Post songmode cila
 
 ## MaxCore Looper ve digerleri
-	+ Looperi once kurabilirsin granulardan
-	+ Cok ufak degerler olabilir time value’su icin
++ Looperi once kurabilirsin granulardan
++ Cok ufak degerler olabilir time value’su icin
 
 ## MaxCore Snipper
 
@@ -215,50 +206,50 @@
 ### Drumlarin birbirini Perdeledigi bir Volume CV sistemi kur
 
 ### Rectifier sistemi
-	+ Asagidaki gibi input rectifier yapabilirsin, (yesil foto), yani genel CV cikisina, direk Positive, ve Negative rectifier koyarasin, 128den asagiya dogru, o noktadan sonra asagiya ceker, filan filan, bayaa onemli
++ Asagidaki gibi input rectifier yapabilirsin, (yesil foto), yani genel CV cikisina, direk Positive, ve Negative rectifier koyarasin, 128den asagiya dogru, o noktadan sonra asagiya ceker, filan filan, bayaa onemli
 
 ### Dynamic Trigger Sistemi
-	+ Ratchet ile karistirma, direk bu midi functionina ekleyebilirsin
-	+ “Dynamic Trigger” sistem yap, asagidaki ilk SSF videosunda bagsedilen sey
-	+ Bir triggeri, Karplus gibi cok trigleme sistemi yap, boyle bunun icin kanal bile olabilir, ustuste vurma sistemi, asagida SSF 2. videoda ornegi var
++ Ratchet ile karistirma, direk bu midi functionina ekleyebilirsin
++ “Dynamic Trigger” sistem yap, asagidaki ilk SSF videosunda bagsedilen sey
++ Bir triggeri, Karplus gibi cok trigleme sistemi yap, boyle bunun icin kanal bile olabilir, ustuste vurma sistemi, asagida SSF 2. videoda ornegi var
 	
 ### Dynamic Trigger Sistemi
-	+ S&H VERSUS TRACK&HOLD yapmaya bak “13 Patches for better Sample & Hold + Track & Hold in Eurorack   Instruo tagh” 7. dk
++ S&H VERSUS TRACK&HOLD yapmaya bak “13 Patches for better Sample & Hold + Track & Hold in Eurorack   Instruo tagh” 7. dk
 
 ### Delay’ed CV
-	+ cv’ye delay ekleme bak
-	+ Negative positive feedback
++ cv’ye delay ekleme bak
++ Negative positive feedback
 
 ### Slew Master Effect
-	+ Doepfer A-171-4 gibi Master effect’e tek knob herseyin slewli halini yap, ayni sekilde bu abletondaki randomness’i da yap, 16. step’e koyarsin mega mega
-	+ CC’leride dusun
++ Doepfer A-171-4 gibi Master effect’e tek knob herseyin slewli halini yap, ayni sekilde bu abletondaki randomness’i da yap, 16. step’e koyarsin mega mega
++ CC’leride dusun
 
 ### LPG CV
-	+ Lowpass gate al bir tane ve cv ile dene steady state gate // max’te
-	+ Bunu highly specialized ile birlestirebilirsin
++ Lowpass gate al bir tane ve cv ile dene steady state gate // max’te
++ Bunu highly specialized ile birlestirebilirsin
 
 ### Micro Modular x16
-	+ 16 kanal drumda her hiti sample aldigi boyle bir matrix sistem kurma, scene scene, hangi scenede oldugunu bilecek, sample alirsin komple scene i sonra, nerede olduguna bagli pitch shift yaparsin
-	+ Effectli halini sample alirsin sonra bu MaxCore oncesi bunu girebilirsin drum’a
-		- Drum’i calinca bir garip halini calicak sonra pitch shift edersin hepsini filan
-		- Scene-scene kayit olabilir
++ 16 kanal drumda her hiti sample aldigi boyle bir matrix sistem kurma, scene scene, hangi scenede oldugunu bilecek, sample alirsin komple scene i sonra, nerede olduguna bagli pitch shift yaparsin
++ Effectli halini sample alirsin sonra bu MaxCore oncesi bunu girebilirsin drum’a
+	- Drum’i calinca bir garip halini calicak sonra pitch shift edersin hepsini filan
+	- Scene-scene kayit olabilir
 
 ### Specialized CV’s for effect units
-	+ for delay effects // Abi delayde feedbacki olduren patch yap, mesela snare vuruo, time cok kisa, gate bitince feedback sifirlanio, boylece hit based sound olur, videoda gordum
++ for delay effects // Abi delayde feedbacki olduren patch yap, mesela snare vuruo, time cok kisa, gate bitince feedback sifirlanio, boylece hit based sound olur, videoda gordum
 
 ### Sistem Sampler Extra Idea
-	+ sistem. sampler yap!!!! // bunun icin kitaplari calisman lazim part-1 ve part-2 // Midi sampler yap bole crossfade etsin oriinali arasinda hizlat vavaslat filan looper gibi
-	+ Bu chopper objesi ile yapabilirsin bunu, en son stage
++ sistem. sampler yap!!!! // bunun icin kitaplari calisman lazim part-1 ve part-2 // Midi sampler yap bole crossfade etsin oriinali arasinda hizlat vavaslat filan looper gibi
++ Bu chopper objesi ile yapabilirsin bunu, en son stage
 
 ### Virtual Channel Sampler
-	+ Bir sabit background Sampler’in yok, general usage bir sampler yapilabilir, 
-	+ Console Virtual Channel’in var
++ Bir sabit background Sampler’in yok, general usage bir sampler yapilabilir, 
++ Console Virtual Channel’in var
 
 ### MIDI Parallel Yapilanma
-	+ Bir sekilde main patterni record et, cirklondaki, ve sonra modulardan clock ile onu modulate edebil, bar basinda resetlensin filan, boylece farkli clocklar ile modulasyon edebilirsin, bu cok onemli fikir, iki tane lane olacak, cirklon ile max, arasinda on off switch yap, bir nota ile falan triglensin, uzunlugu, su kadar sure acik kalsin filan diye // yani cok micro bir duzeydede yapabilirsin, pattern save et, sonra aralarinda gecis yap gibi yada herseye gomulu bir sistem olabilir
-	+ Abletonda olacak bu sistem
-	+ Velocity ile fade in fade out olsun ana sisteme, 0 iken orijinal pattern, 63 iken ikiside 63 velocity, 
-		+ Velocity curve’unu cizdigin bir sistem
++ Bir sekilde main patterni record et, cirklondaki, ve sonra modulardan clock ile onu modulate edebil, bar basinda resetlensin filan, boylece farkli clocklar ile modulasyon edebilirsin, bu cok onemli fikir, iki tane lane olacak, cirklon ile max, arasinda on off switch yap, bir nota ile falan triglensin, uzunlugu, su kadar sure acik kalsin filan diye // yani cok micro bir duzeydede yapabilirsin, pattern save et, sonra aralarinda gecis yap gibi yada herseye gomulu bir sistem olabilir
++ Abletonda olacak bu sistem
++ Velocity ile fade in fade out olsun ana sisteme, 0 iken orijinal pattern, 63 iken ikiside 63 velocity, 
+		- Velocity curve’unu cizdigin bir sistem
 
 
 
