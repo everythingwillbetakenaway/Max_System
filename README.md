@@ -142,14 +142,14 @@
 		- ve before after ekleme yap // Before after ufak circuit bent
 
 ## MaxCore Sistemi: Icinde Granular In & Out 
-	- Initial olarak sadece drumda deneyebilirsin, yada drum’in bir kanalı, intellijel 4x ilede olablr, yada Happy nerding yeter veya Quad VCA
-	- Kitaptan kesin bakman gerekiyor buna
-	- Buffer olan yerlerde scene’ scene kaydetmeyi yapabilirsin
+	+ Initial olarak sadece drumda deneyebilirsin, yada drum’in bir kanalı, intellijel 4x ilede olablr, yada Happy nerding yeter veya Quad VCA
+	+Kitaptan kesin bakman gerekiyor buna
+	+ Buffer olan yerlerde scene’ scene kaydetmeyi yapabilirsin
 		- Post songmode cila
 
 ## MaxCore Looper ve digerleri
-	- Looperi once kurabilirsin granulardan
-	- Cok ufak degerler olabilir time value’su icin
+	+ Looperi once kurabilirsin granulardan
+	+ Cok ufak degerler olabilir time value’su icin
 
 ## MaxCore Snipper
 
@@ -218,7 +218,7 @@
 	+ S&H VERSUS TRACK&HOLD yapmaya bak “13 Patches for better Sample & Hold + Track & Hold in Eurorack   Instruo tagh” 7. dk
 
 ### Delay’ed CV
-	+cv’ye delay ekleme bak
+	+ cv’ye delay ekleme bak
 	+ Negative positive feedback
 
 ### Slew Master Effect
