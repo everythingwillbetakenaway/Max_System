@@ -1,10 +1,11 @@
 # Max_System
 
-### Things to do
+### Immediate things to do
 + Onem sirasina gore sirala
 + ES8 output ile midi output latency farkina bak, attack transientlarini goturmesin, ona gore delay ver, midiye, velocity nasil olacak karar ver
++ En son kismi temizle
 
-——————————————————————————————————————————
+————————————
 
 ## Octave Adder
 + Velocity ekle table ile
@@ -86,6 +87,7 @@
 + Sample alma trig sistemi 
 	- Bunun librarysini olustur “Drum Group Sampler”’dada kulancan
 + MIDI CC ile hangi Drum’a bagli oldugunun bilinmesi boylece triplenmesi
++ Godfater modulune bak ondan biseyler clonelayabiirsin
 
 ## Befaco Burst System
 + Direk input output connection. sonra baska enstrumanlar gelecek bunun gibi. Bu test ground.
@@ -114,111 +116,143 @@
 
 ## CV Matrix system
 + Depth olan knoblu olan
-+ Sayfa 4’te olabilir 16 tane CV yeri, source’u sectigin filan, outputa attadigin, 
++ + Dedicated Cirklon channels, Sayfa 4’te olabilir 16 tane CV yeri, source’u sectigin filan, outputa attadigin, 
+	- Butun kompleks page after page seyler enstrumanlara burada sirali olur
 + Birden cok input, up to 6 CV’s per channel
+	- Bu macro sistemi, burada degil ama dusun genede mixleme olabilir, 6 degilde 3 mesela, #1 CV Selection #2 CV Depth
 + Aralarindas fade-in fade-out olan bir sistem yap.
-+ MIDI CC ile secicek channek, ve CV Waveshape filan buraya gelicek
-+ Dedicated Cirklon channels?
-+ Kanka bu nasil biseyin icinde olacak onu dusun
++ MIDI CC ile secicek channel, ve CV Waveshape filan buraya gelicek
 + limi~ easy access limiter, upper ve lower floor ASYM CLIP 2.0 by fendoap // bu patch yerine basic math ile yapabilirsin
 + Bunu yaptigin MAX Doepfer A-138m 4×4 Matrix Mixer ve presetler arasinda morph
+	- Bunun presetleri sadece buna, global degil
 + CV Tools daki Enveliope follower ile ilgili biseyler yapabilirsin, rise fall filan, delay,
 	- ### CV Waveshaper
 		- Instruo athrú Wavefolder fikirini dusun. ama nereye implemnt etcegide cok onemli, nasil hangi sekilde. Trigger input manualini calis
-	Max Ease Package
-	+ max ease package
-	+ post ease pre ease // baska effectlerden oncesi veya sonrasi seklinde olabilir
-	Pre-Matrix (Preliminary)
-	+ Karisik bisey yok, preset morph olabilir. Kare seklinde olacak, yani equal input & outputs,
-	+ Bunu dinamik olarak degistirebil, onemli bu kismi, micro glitchler yapcagin, iyi dusun, basit basla	
-	Primary Matrix System
-	+ Bu neyin icinde durucak?
-	Output System
-	+ Doepfer A-183-2 Offset / Polarizer /Attenuator // offset attenuateden once, veya attenuateden sonra,  ikisi arasinda fade?? // Instruo Tanh [3] Waveshaper, her CV cikisi icin cirklondan offset, attenuate/amplify, ve before after ekleme yap
+	- ### Max Ease Package
+		- max ease package
+		- post ease pre ease // baska effectlerden oncesi veya sonrasi seklinde olabilir
+	- ### Pre-Matrix (Preliminary) Micro Matrix
+		- Karisik bisey yok, preset morph olabilir. Kare seklinde olacak, yani equal input & outputs,
+		- Bunu dinamik olarak degistirebil, onemli bu kismi, micro glitchler yapcagin, iyi dusun, basit basla	
+	- ### Primary Matrix System
+		- Crosspatch objesi ile mi yoksa eski matrix ile mi? 
+	- ### Output System
+		- Doepfer A-183-2 Offset / Polarizer /Attenuator // offset attenuateden once, veya attenuateden sonra,  ikisi arasinda fade?? // 
+		- Instruo Tanh [3] Waveshaper, her CV cikisi icin cirklondan offset, attenuate/amplify, 
+		- ve before after ekleme yap // Before after ufak circuit bent
 
-MEGA-Tang ve MFX ile Granular In & Out
-+ Initial olarak sadece drumda deneyebilirsin, yada drum’in bir kanalı, intellijel 4x ilede olablr, yada Happy nerding yeter veya Quad VCA
+## MaxCore Sistemi: Icinde Granular In & Out 
+	- Initial olarak sadece drumda deneyebilirsin, yada drum’in bir kanalı, intellijel 4x ilede olablr, yada Happy nerding yeter veya Quad VCA
+	- Kitaptan kesin bakman gerekiyor buna
+	- Buffer olan yerlerde scene’ scene kaydetmeyi yapabilirsin
+		- Post songmode cila
 
-May Apply to ALL —> CV Matrix’ede oluyor
+## MaxCore Looper ve digerleri
+	- Looperi once kurabilirsin granulardan
+	- Cok ufak degerler olabilir time value’su icin
+
+## MaxCore Snipper
+
+## May Apply to ALL —> CV Matrix’ede oluyor
 + Doepfer A-162 Dual Trigger Delay
-+Analogue Systems RS-340 Gate Delay, gate uzunlugu arttirma gibi
++ Analogue Systems RS-340 Gate Delay, gate uzunlugu arttirma gibi
 + Erogenous Tones Radar Octo Envelope // buradaki log exp knob’u ve diger gizli detailler
 + Noise Engineering Quantus Ampla // bunun gibi 63den kucukse, attenuate, 63den buyukse amplify yapabilirsin CV icin // bu ve ustteki xyz
-	bu pin matrix sistemi kisminda olablr, on ise 63, sonra ayarlamali
+	- Bu pin matrix sistemi kisminda olablr, on ise 63, sonra ayarlamali
 
-
-MIDI Effects, May apple to all
+## MIDI Effects, May apple to all
 + Cirklon ile octave ekleme yap, mixing ile/ her enstrumana
+	- Eger sifir ise basic octave switch gorevi gorur
 + Composing interactive music
-+ Dorduncu sayfaya 16 kanal drum kanallari yap oraya bu gibi filter ozellikleri ve kesfettigin seyleri eklersin, mesela trig inputa !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!gate sinyali kadar trig yollamayi !!!!!!!!!!!!!!!!!!!!!!! ekleyebilirsin gate tik tik tik gibi variable time base yaparsin, mesela bu gate sinyali kadar trig yollama ile normali arasinda gecis yapabilirsin, fade-in- fade-out accordding to midi velocity. sonrada release, bunu her instrumenntta dene
++ Dorduncu sayfaya 16 kanal drum kanallari yap oraya bu gibi filter ozellikleri ve kesfettigin seyleri eklersin, mesela trig inputa
+	- Bu ucuncu sayfada olabilir, 8 kanal icin yaparsin
++ Gate sinyali kadar trig yollama sistemi, bunu VCA yardimi ile yap
+	- Gate tik tik tik gibi variable time base yaparsin, mesela bu gate sinyali kadar trig yollama ile normali arasinda gecis yapabilirsin, fade-in- fade-out accordding to midi velocity. sonrada release, bunu her instrumenntta dene
 + Bu ustteki cok onemli, bir dusun, bayaa kilit bir effect ama tekrar eden notalara drunkness yapabilirsin!, drum ise ayri kolay zaten, arpeggiator for max kullanabilirsin yukaridaki icin
 + Ratchet Gate 2.1
 
-
-Highly Specialized CV messages
+## Highly Specialized CV messages
 + mesela bu var XAOC Devices Koszalin Stereo VC Frequency Shifter // snare’e giden bir cv’yi direk bir tane cv out’a yollayıp bunada yollamayi yapma fikri AMA COK DIREKT OLMASI LAZIM PAT PAT PAT OLDU BITTI
 + Ayni sekilde H90’in iki girisi var, orayada girebilir,
 + Analog heat’inde var
-
-+ Joranalogue Select 2 Dual CV Processor // !!!!!!!!!deep dive!!!!!!!!!!!!!! bir joranalogue deep dive yap // abi bu cok iyiymis bunu maxte yap // BUNU DIREK AL // YADA MAX ILE EKLE
-	bunun ile usttekileri birlestirebilirsin, yani polarizer olan yerlere
-
-
++ Bu usttekinden bagimsiz biraaz Joranalogue Select 2 Dual CV Processor // !!!!!!!!!deep dive!!!!!!!!!!!!!! bir joranalogue deep dive yap // abi bu cok iyiymis bunu maxte yap // BUNU DIREK AL // YADA MAX ILE EKLE
+	- Bunun ile usttekileri birlestirebilirsin, yani polarizer olan yerlere
 + Intellijel crossfader ile mesela timbral o filter gibi seye mult ile yolla ve crossfadera gir, ikisi arasinda duzgun noktayi bul // BUNU YAPABILIDIGN BIR CV SISTEMI DUSUN, KESIN OLSUN
+	- Burada bagsedilen tam ne bilmiorum ama windowing functionida dusun
 
-
-Makrow Function
+## Makrow Function Universal Between CV & CC
 +Makrow functionini direk, midi cc sec, yaparsin, sonra cevirince base’ine gore attanuate veya amplify eder, o CC’yi, ama intertrack (yani prophet-x ile arasinda olmayabilir), intertrack icin midi learnlu bisey yapmak lazim
 +yani makrow birden cok secicek, midi cc, TV1 CCX TV2 CCY
 +5 tane secer, 6incsi, scale etme olur
 
-Master Channel
+## Master Channel
 + Global hold all cv’s or give some eazein to them
 + Bunun icin ozel enstrumanin olsun mesela
 + Ustteki makrow function ile bagli
 + “How to set up and use modular macro control” youtube videosu, herseye apply edebilir ozellikle CV matrix sistemindeki offsete
++ Ek master channel icin circuit bent effect 
+	- Channel 4 VCA with linear characteristic curve, her kanala giren bir master cv yap, boyle meta kontrol, kullanirsin, +63-62, offset, filan yapar, veya carpar
+	- Her seyin mega modulatori,
+	- CC’leri ayri dusunebilirsin yada hic yapmayabilirsin
 
-Modulate Freq Input of Modulation Sources
+## Modulate Freq Input of Modulation Sources
 + Bak bu ama secmeli, butun cv ccler yavas yavas oynayacak, sabit filter cuttof 75 mesela, sen bu vintage knob gibi, bir depth olcak, 73-78 arasi oynuo, random, veya diger waveshapeler, modulation depth arttirabilirsin, master control cirklon channel
 + Secebil, boylece bir module’un inputuna gene onun outputunu yollaytabil, feedback
++ Bunun icin bir tane Intellijel MIDI ve CV modulu alabilirsin, freqleri micro modulate eder, 
 
-Looper yap, tutoriali var PDF, ona gore input output yap console virtual channel ile
+————————————
 
-Drumlarin birbirini Perdeledigi bir Volume CV sistemi kur
+# Idea Stage
 
-Looper icin yerin yok ne yazikki ses karti lazim
+### Drumlarin birbirini Perdeledigi bir Volume CV sistemi kur
 
-ASR-10 Tarzi her kanala sample, yada asagidaki resimin ustundeki sey
+### Rectifier sistemi
+	+ Asagidaki gibi input rectifier yapabilirsin, (yesil foto), yani genel CV cikisina, direk Positive, ve Negative rectifier koyarasin, 128den asagiya dogru, o noktadan sonra asagiya ceker, filan filan, bayaa onemli
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+### Dynamic Trigger Sistemi
+	+ Ratchet ile karistirma, direk bu midi functionina ekleyebilirsin
+	+ “Dynamic Trigger” sistem yap, asagidaki ilk SSF videosunda bagsedilen sey
+	+ Bir triggeri, Karplus gibi cok trigleme sistemi yap, boyle bunun icin kanal bile olabilir, ustuste vurma sistemi, asagida SSF 2. videoda ornegi var
+	
+### Dynamic Trigger Sistemi
+	+ S&H VERSUS TRACK&HOLD yapmaya bak “13 Patches for better Sample & Hold + Track & Hold in Eurorack   Instruo tagh” 7. dk
 
-+ Asagidaki gibi input rectifier yapabilirsin, (yesil foto), yani genel CV cikisina, direk Positive, ve Negative rectifier koyarasin, 128den asagiya dogru, o noktadan sonra asagiya ceker, filan filan, bayaa onemli
+### Delay’ed CV
+	+cv’ye delay ekleme bak
+	+ Negative positive feedback
 
-+ “Dynamic Trigger” sistem yap, asagidaki ilk SSF videosunda bagsedilen sey
+### Slew Master Effect
+	+ Doepfer A-171-4 gibi Master effect’e tek knob herseyin slewli halini yap, ayni sekilde bu abletondaki randomness’i da yap, 16. step’e koyarsin mega mega
+	+ CC’leride dusun
 
-+ Bir triggeri, Karplus gibi cok trigleme sistemi yap, boyle bunun icin kanal bile olabilir, ustuste vurma sistemi, asagida SSF 2. videoda ornegi var
+### LPG CV
+	+ Lowpass gate al bir tane ve cv ile dene steady state gate // max’te
+	+ Bunu highly specialized ile birlestirebilirsin
 
-+ S&H VERSUS TRACK&HOLD yapmaya bak “13 Patches for better Sample & Hold + Track & Hold in Eurorack   Instruo tagh” 7. dk
+### Micro Modular x16
+	+ 16 kanal drumda her hiti sample aldigi boyle bir matrix sistem kurma, scene scene, hangi scenede oldugunu bilecek, sample alirsin komple scene i sonra, nerede olduguna bagli pitch shift yaparsin
+	+ Effectli halini sample alirsin sonra bu MaxCore oncesi bunu girebilirsin drum’a
+		- Drum’i calinca bir garip halini calicak sonra pitch shift edersin hepsini filan
+		- Scene-scene kayit olabilir
 
-+cv’ye delay ekleme bak
+### Specialized CV’s for effect units
+	+ for delay effects // Abi delayde feedbacki olduren patch yap, mesela snare vuruo, time cok kisa, gate bitince feedback sifirlanio, boylece hit based sound olur, videoda gordum
 
-+ Doepfer A-171-4 gibi Master effect’e tek knob herseyin slewli halini yap, ayni sekilde bu abletondaki randomness’i da yap, 16. step’e koyarsin mega mega
+### Sistem Sampler Extra Idea
+	+ sistem. sampler yap!!!! // bunun icin kitaplari calisman lazim part-1 ve part-2 // Midi sampler yap bole crossfade etsin oriinali arasinda hizlat vavaslat filan looper gibi
+	+ Bu chopper objesi ile yapabilirsin bunu, en son stage
 
-+ Lowpass gte al bir tane ve cv ile dene steady state gate // max’te
+### Virtual Channel Sampler
+	+ Bir sabit background Sampler’in yok, general usage bir sampler yapilabilir, 
+	+ Console Virtual Channel’in var
 
-+ Scene scene alabildigin looper yap
+### MIDI Parallel Yapilanma
+	+ Bir sekilde main patterni record et, cirklondaki, ve sonra modulardan clock ile onu modulate edebil, bar basinda resetlensin filan, boylece farkli clocklar ile modulasyon edebilirsin, bu cok onemli fikir, iki tane lane olacak, cirklon ile max, arasinda on off switch yap, bir nota ile falan triglensin, uzunlugu, su kadar sure acik kalsin filan diye // yani cok micro bir duzeydede yapabilirsin, pattern save et, sonra aralarinda gecis yap gibi yada herseye gomulu bir sistem olabilir
+	+ Abletonda olacak bu sistem
+	+ Velocity ile fade in fade out olsun ana sisteme, 0 iken orijinal pattern, 63 iken ikiside 63 velocity, 
+		+ Velocity curve’unu cizdigin bir sistem
 
-+ Intellijel quad vca ile autodub yapabilirsin veya bu alm instrument, HER FILTER’A
 
-+16 kanal drumda her hiti sample aldigi boyle bir matrix sistem kurma, scene scene, hangi scenede oldugunu bilecek, sample alirsin komple scene i sonra, nerede olduguna bagli pitch shift yaparsin
-
-+ for delay effects // Abi delayde feedbacki olduren patch yap, mesela snare vuruo, time cok kisa, gate bitince feedback sifirlanio, boylece hit based sound olur, videoda gordum
-
-+ sistem. sampler yap!!!! // bunun icin kitaplari calisman lazim part-1 ve part-2 // Midi sampler yap bole crossfade etsin oriinali arasinda hizlat vavaslat filan looper gibi
-
-+ abi bir sekilde main patterni record et, cirklondaki, ve sonra modulardan clock ile onu modulate edebil, bar basinda resetlensin filan, boylece farkli clocklar ile modulasyon edebilirsin, bu cok onemli fikir, iki tane lane olacak, cirklon ile max, arasinda on off switch yap, bir nota ile falan triglensin, uzunlugu, su kadar sure acik kalsin filan diye // yani cok micro bir duzeydede yapabilirsin, pattern save et, sonra aralarinda gecis yap gibi yada herseye gomulu bir sistem olabilir
 
 + MIDI Harp - FREE 3.2 , bunu enstruman oncesinde dene
 
