@@ -1,10 +1,16 @@
 # Max_System
 
+### Things to do
++ Onem sirasina gore sirala
++ ES8 output ile midi output latency farkina bak, attack transientlarini goturmesin, ona gore delay ver, midiye, velocity nasil olacak karar ver
+
+——————————————————————————————————————————
+
 ## Octave Adder
 + Velocity ekle table ile
 + Input arguments object
 
-## “MACRO KNOB” CV Modulator
+## “Macro Knob” CV Modulator
 + CV out’lari sectigin bir ara girici modulator olsun, Makrov modulunden ornek al, 
 + O glitch functioni [abletondaki] gibi ekleme yap, dedicated kanal, 
 + Aligot modulunede bak
@@ -18,11 +24,22 @@
 + Bu Quadrax gibi ratchetli seyleri kullanabilirsin
 + Manual’ini iyi calis
 
-## Velocity & Matrix Sistemi
-+ Bu gate trigleri, post-volume send’de yap boylece, trigler volume envelope’u takip354 eder
+## Velocity & Matrix Sistemi Sorunu, Hard Problem
++ Bu gate trigleri, post-volume send’de yap boylece, trigler volume envelope’u takip eder
+	- Bunu kesin Dusun
++ VCA’ler once mi sonra mi? 
++ Clash eden notalari accent ile yapmak mi acaba?
+
+## Matrix Drum Trigger
++ Choke functioni olsun VCA’den Percall gibi // manualini calis
++ Choke Matrix??
++ CalSynth Twiigs Dual Branches // mutable branches, bunu kesin yap, trig basina, subtructive// en outputa koyabilirsin
++ shift and scramble the outputs,
++ shift and scramble the outputs,
 
 ## VCA Fikirleri
 + Ducker
+	- Latency hesaplaman lazim once, toolboxda toolu var, attackleri goturebilir,
 + Mute Solo
 
 ## Mixer VCA fikirleri
@@ -30,78 +47,72 @@
 + Velocity?
 + Mixer cv icin crossfade yapmavi saglayan cv out sistemi olsun, dusun, mixerden mixere gore,
 + O sistem !- 1 cv, modulation for mixers seklinde kurulacak
-	- ABC
-+ Befacodaki alabilirsin mixer icin
+	- Mixer’ine gore obje
+	- Objeyi CV value’su ile argument girip, CV’leri cikar
 
-Patching Panda Particles Clone
+## Patching Panda Particles Clone
++ O complete sistemi kurmak mantikli mi? 3 layerli?
 
-Patching Panda Ephemere Clone
-+En son CV cikisina bundan koy
-+Scene scene yaptigin bir sistem olabilir,
-+Playback speed must
-+Segmentlere bolebilir ve kucuk parcalarinda loop edebilirsin,
-+Orijinali ile arasinda gecis yapabilir,
-+Bunun gibi channellar olur, iyi bir cv modulation gibi
-+CC’lerden birisine bu scene kaydedebilir, yani birkac tane cv kaydedebilirsin,
-+Yani boyle en son cv’ye mega bir katman daha katmak icin iyi olabilir, 
+## Patching Panda Ephemere Clone
++ En son CV cikisina bundan koy
++ Scene scene yaptigin bir sistem olabilir,
++ Playback speed must
++ Segmentlere bolebilir ve kucuk parcalarinda loop edebilirsin,
++ Orijinali ile arasinda gecis yapabilir,
++ Bunun gibi channellar olur, iyi bir cv modulation gibi
++ CC’lerden birisi ile bu scene’e kaydedebilir, yani birkac tane cv kaydedebilirsin,
++ Yani boyle en son cv’ye mega bir katman daha katmak icin iyi olabilir, 
 + Tabi butun sistem kurulduktan sonra olcak bu
 
-——————————————————————————————————————————
+## Bir tane drum group sampler yap, aralarinda gecis yaparsin
++ ALM ile
++ Yeni fikir brainstorm
++ Kick Snare Hihat tamamda effect return nasil olacak? 
 
-Bir tane drum sampler yap, aralarinda gecis yaparsin
-+ PDF var groove filan ondan bak
-
-ES8 output ile midi output latency farkina bak, attack transientlarini goturmesin, ona gore delay ver, midiye, velocity nasil olacak karar ver
-
-Max Solo/Mute yapabil drumlari mute ve solo
-+ 16 Keys, shift ile, vcalere giden hard multiply, sonrasinda cv’li sini yap, double solo
-+ Enstrumanlar olsun, solo mute
+## Max Solo/Mute yapabil drumlari mute ve solo
++ 16 Keys, Mira ile, sonrasinda cv’li sini yap, double solo
++ Max packagedeki o garip mixer packageinde var Global solo nasil yapilir
 + Drum Kanallari arasinda ayri bir sistem olsun yani snare, kick hihat filan, 
-+ Hihati dusun, bir tane Tallinnn alabilirsin, sirf mutelayabilmek icin
+	- Mixer bazli solo olsun yani
 
-Rample Clone
-+ Mono/Stereo record
+## Rample Clone
++ Stereo record
+	-  Sample aldiktan sonra, Stereo kanal fade in fade out olsun, sag kanalda effect olsun sol kanal dry
 + Dedicated Cirklon Channel
-+ Limited Instruments/Channel
 + Rample Manual study and functions
-+ Dedicated Eurorack Module // Qu-Bit Electronix - Synapse
-+ Warm Audio Record Level Matching Calibration System? Or DI Input of Apollo
-+ Sample alma trig sistemi
-+ MIDI CC ile hangi Drum’a bagli oldugunun bilinmesi boylece triglenmesi
++ Elindeki moduller ile simdilik 4 kanal, ama iki kanal daha ekleyebilirsiin sanirim, 
++ Warm Audio Record Level Matching Calibration System? 
+	- Sample aldiktan sonra levellari match eden sistem kesin olsun DB gosteren, console’a bakmadan, peak~ bak
++ Sample alma trig sistemi 
+	- Bunun librarysini olustur “Drum Group Sampler”’dada kulancan
++ MIDI CC ile hangi Drum’a bagli oldugunun bilinmesi boylece triplenmesi
 
-
-Befaco Burst System
+## Befaco Burst System
 + Direk input output connection. sonra baska enstrumanlar gelecek bunun gibi. Bu test ground.
 + vpme.de Trig31 Trigger to MIDI olabilir, olmayabiliirde.
 + Latency’yi total delay ekleyerek onleyebilirsin.
 
-Matrix Drum Trigger
-+ Choke functioni olsun VCA’den Percall gibi // manualini calis
-+ Choke Matrix??
-+ CalSynth Twiigs Dual Branches // mutable branches, bunu kesin yap, trig basina, subtructive// en outputa koyabilirsin
-+ shift and scramble the outputs,
-+ shift and scramble the outputs,
 
-Clavia Nord Drum 3P Editor V2 2.0
-+ Randomness range for each 6 voices.
-+ Serial mode, same order same sound
+## Clavia Nord Drum 3P Editor V2 2.0
++ Randomness range for each 3 voices.
++ Serial mode, same order same sound 
 + Parallel mode, for random order, eq kinda glitch.
 
-CV Jitter 
-+CV Tools’daki CV LFO’daki Jitteri kesin al, cok basitmis
+## CV Jitter 
++ CV Tools’daki CV LFO’daki Jitteri kesin al, cok basitmis
++ Ve Humanize function
 
-Preset Morphing
+## Preset Morphing
 + Direk calis
 + Eski parcali instrumenlisini yap 
 
-Pamelaya 4ms clock bagla modulate et
+## Pamelaya 4ms clock bagla modulate et
 + Pamela basically, ufak swiss knife
 
-Torso’ya MIDI Clock sinyali modulate etme sistemleri yap
+## Torso’ya MIDI Clock sinyali modulate etme sistemleri yap
 + CV Tools’daki enstrumanlari dene, orada cikis var MIDI Trig
 
-
-CV Matrix system
+## CV Matrix system
 + Depth olan knoblu olan
 + Sayfa 4’te olabilir 16 tane CV yeri, source’u sectigin filan, outputa attadigin, 
 + Birden cok input, up to 6 CV’s per channel
@@ -112,8 +123,8 @@ CV Matrix system
 + limi~ easy access limiter, upper ve lower floor ASYM CLIP 2.0 by fendoap // bu patch yerine basic math ile yapabilirsin
 + Bunu yaptigin MAX Doepfer A-138m 4×4 Matrix Mixer ve presetler arasinda morph
 + CV Tools daki Enveliope follower ile ilgili biseyler yapabilirsin, rise fall filan, delay,
-	CV Waveshaper
-	+ Instruo athrú Wavefolder fikirini dusun. ama nereye implemnt etcegide cok onemli, nasil hangi sekilde. Trigger input manualini calis
+	- ### CV Waveshaper
+		- Instruo athrú Wavefolder fikirini dusun. ama nereye implemnt etcegide cok onemli, nasil hangi sekilde. Trigger input manualini calis
 	Max Ease Package
 	+ max ease package
 	+ post ease pre ease // baska effectlerden oncesi veya sonrasi seklinde olabilir
