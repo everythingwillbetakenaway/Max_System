@@ -1,4 +1,3 @@
-# Max_System
 
 ### Immediate things to do
 + Onem sirasina gore sirala
@@ -6,6 +5,11 @@
 + En son kismi temizle
 
 ————————————
+
+### Slew Master Effect
+	+ Doepfer A-171-4 gibi Master effect’e tek knob herseyin slewli halini yap, ayni sekilde bu abletondaki randomness’i da yap, 16. step’e koyarsin mega mega
+	+ CC’leride dusun
+
 
 ## Octave Adder
 + Velocity ekle table ile
