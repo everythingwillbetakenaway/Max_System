@@ -1,3 +1,4 @@
+# Max_System
 
 ### Immediate things to do
 + Onem sirasina gore sirala
@@ -63,6 +64,7 @@
 + CC’lerden birisi ile bu scene’e kaydedebilir, yani birkac tane cv kaydedebilirsin,
 + Yani boyle en son cv’ye mega bir katman daha katmak icin iyi olabilir, 
 + Tabi butun sistem kurulduktan sonra olcak bu
++ Capture objesi?
 
 ## Bir tane drum group sampler yap, aralarinda gecis yaparsin
 + ALM ile
@@ -115,7 +117,7 @@
 
 ## CV Matrix system
 + Depth olan knoblu olan
-+ + Dedicated Cirklon channels, Sayfa 4’te olabilir 16 tane CV yeri, source’u sectigin filan, outputa attadigin, 
++ Dedicated Cirklon channels, Sayfa 4’te olabilir 16 tane CV yeri, source’u sectigin filan, outputa attadigin, 
 	- Butun kompleks page after page seyler enstrumanlara burada sirali olur
 + Birden cok input, up to 6 CV’s per channel
 	- Bu macro sistemi, burada degil ama dusun genede mixleme olabilir, 6 degilde 3 mesela, #1 CV Selection #2 CV Depth
