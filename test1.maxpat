@@ -40,6 +40,39 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 574.0, 341.0, 150.0, 20.0 ],
+					"text" : "spray poly"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 574.0, 366.0, 150.0, 20.0 ],
+					"text" : "nord drum calisma"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 259.5, 285.5, 149.0, 20.0 ],
+					"text" : "_____________________"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -936,6 +969,19 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
+									"id" : "obj-117",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 216.0, 282.0, 150.0, 20.0 ],
+									"text" : "19. tutorial'a bak",
+									"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-95",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1799,7 +1845,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 418.0, 469.5, 84.0, 47.0 ],
-									"presentation_linecount" : 2,
 									"text" : "scale objects exponentially\n"
 								}
 
@@ -5821,19 +5866,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 0.0 ],
-					"id" : "obj-117",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 921.0, 299.0, 150.0, 20.0 ],
-					"text" : "19. tutorial'a bak",
-					"textcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-80",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -5986,8 +6018,9 @@
 				"box" : 				{
 					"id" : "obj-85",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.0, 898.5, 37.0, 22.0 ],
 					"text" : "v abc"
 				}
