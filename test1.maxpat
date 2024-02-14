@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,808 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-133",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1260.0, 827.0, 150.0, 20.0 ],
+					"text" : "aftertouch'i al"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-131",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1170.25, 854.0, 150.0, 20.0 ],
+					"text" : "iki tane var"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-194",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 81.0, 737.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 320.0, 414.0, 50.5, 22.0 ],
+									"text" : "nrpnout"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 287.0, 345.0, 50.0, 22.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 268.0, 305.0, 47.0, 22.0 ],
+									"text" : "unpack"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "int", "int", "", "int", "int" ],
+									"patching_rect" : [ 228.0, 262.0, 148.0, 23.0 ],
+									"text" : "midiselect @ch 2 @ctl 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-129",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 109.0, 345.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 90.0, 305.0, 47.0, 22.0 ],
+									"text" : "unpack"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-114",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "int", "int", "", "int", "int" ],
+									"patching_rect" : [ 50.0, 262.0, 148.0, 23.0 ],
+									"text" : "midiselect @ch 1 @ctl 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 455.0, 170.0, 119.0, 22.0 ],
+									"text" : "midiout \"from Max 1\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 455.0, 130.0, 124.0, 22.0 ],
+									"text" : "midiin \"Cirklon Port 4\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-180",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "int", "int", "", "int", "int" ],
+									"patching_rect" : [ 188.0, 130.0, 100.0, 22.0 ],
+									"text" : "midiselect @ch 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-187",
+									"maxclass" : "newobj",
+									"numinlets" : 7,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "" ],
+									"patching_rect" : [ 188.0, 170.0, 88.428571428572468, 22.0 ],
+									"text" : "midiformat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-191",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 188.0, 202.0, 112.0, 22.0 ],
+									"text" : "midiout \"Prophet X\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-193",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 188.0, 100.0, 124.0, 22.0 ],
+									"text" : "midiin \"Cirklon Port 2\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-127",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "int", "int", "", "int", "int" ],
+									"patching_rect" : [ 50.0, 130.0, 100.0, 22.0 ],
+									"text" : "midiselect @ch 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-118",
+									"maxclass" : "newobj",
+									"numinlets" : 7,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "" ],
+									"patching_rect" : [ 50.0, 170.0, 88.428571428572468, 22.0 ],
+									"text" : "midiformat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-68",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 202.0, 112.0, 22.0 ],
+									"text" : "midiout \"Prophet X\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-101",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 100.0, 124.0, 22.0 ],
+									"text" : "midiin \"Cirklon Port 2\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-79",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 315.0, 170.0, 87.0, 22.0 ],
+									"text" : "midiout Iridium"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 315.0, 130.0, 124.0, 22.0 ],
+									"text" : "midiin \"Cirklon Port 3\""
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-114", 0 ],
+									"order" : 0,
+									"source" : [ "obj-101", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-127", 0 ],
+									"order" : 1,
+									"source" : [ "obj-101", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-114", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"source" : [ "obj-118", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 6 ],
+									"source" : [ "obj-127", 6 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 5 ],
+									"source" : [ "obj-127", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 4 ],
+									"source" : [ "obj-127", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 3 ],
+									"source" : [ "obj-127", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 2 ],
+									"source" : [ "obj-127", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 1 ],
+									"source" : [ "obj-127", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 0 ],
+									"source" : [ "obj-127", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-187", 6 ],
+									"source" : [ "obj-180", 6 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-187", 5 ],
+									"source" : [ "obj-180", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-187", 4 ],
+									"source" : [ "obj-180", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-187", 3 ],
+									"source" : [ "obj-180", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-187", 2 ],
+									"source" : [ "obj-180", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-187", 1 ],
+									"source" : [ "obj-180", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-187", 0 ],
+									"source" : [ "obj-180", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-191", 0 ],
+									"source" : [ "obj-187", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-180", 0 ],
+									"order" : 1,
+									"source" : [ "obj-193", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
+									"source" : [ "obj-193", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-129", 1 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-79", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 1 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-7", 2 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1380.0, 171.0, 65.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p midiarea"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1105.125, 728.5, 147.0, 20.0 ],
+					"text" : "aftertouch hackleyebilirsin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1439.0, 16.0, 430.0, 20.0 ],
+					"text" : "prophet-x'e midi cable ile ayri clock yollayabiliosun, su midi clock sorununu coz,"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-122",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1750.0, 87.0, 151.0, 60.0 ],
+					"text" : "midi clock inputu olunca calismiyor, midi clock icin dedicated bir midi channel lazim cirklondan"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1336.0, 728.5, 185.0, 20.0 ],
+					"text" : "nord drum gerekiyor instrumentta"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1649.0, 400.0, 150.0, 74.0 ],
+					"text" : "ayni sekilde analog heat ayarla, double binded, heat'ten kontrol ettigin cirklon'a kaydedilabilir olsun"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1649.0, 365.75, 150.0, 33.0 ],
+					"text" : "eventide midi ayarla, master channel olablr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-202",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 854.0, 67.0, 20.0 ],
+					"text" : "stretch key"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-197",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1436.0, 64.0, 469.0, 33.0 ],
+					"text" : "waldorf iridium'a CV clock yolla, Start ile stop kac volt, clock divider ekleyebilirsin bunu nota ekle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-149",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1631.0, 960.0, 139.0, 20.0 ],
+					"text" : "cirklon drum cv'lerini yap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-124",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 679.5, 153.0, 47.0 ],
+					"text" : "jokeri kesin sal, farkli parameter range, autobind ile ugrasmayda degmez"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-121",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 904.5, 178.25, 127.0 ],
+					"text" : "bir tane DC, pozitif negatif kendin ayarliycan, mod amount icin front page\n\nall env attack \nall env decay\nall env sustain\n\npozitif negatif nrpn icinde zaten"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 877.5, 195.0, 20.0 ],
+					"text" : "filter olsun, buna cirklon record yap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 755.0, 150.0, 20.0 ],
+					"text" : "en onde bunlar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1627.0, 907.0, 288.0, 20.0 ],
+					"text" : "Inst1StretchNote'u ayri var ama gene kesin olmiycak"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-109",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1627.0, 871.0, 215.0, 33.0 ],
+					"text" : "nrpn'de var ama gene kesin, key up down edio, bir dene genede"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-102",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1631.0, 985.0, 280.0, 20.0 ],
+					"text" : "prophet-x scala file'i chromo ve iridium icin ready et"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1627.0, 794.0, 215.0, 74.0 ],
+					"text" : "sadece DC ile instrument base freq'i degistirme sorunu, timestretchte key degistiriyor, dc mod amount modulation ile dene ve direk girmeyi dene"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 827.0, 121.0, 20.0 ],
+					"text" : "expression cc11"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 801.0, 150.0, 20.0 ],
+					"text" : "foot cc4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1103.625, 778.0, 150.0, 20.0 ],
+					"text" : "breath cc2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1545.0, 679.5, 215.0, 20.0 ],
+					"text" : "18 lo-res CV kaliyor, 6 high res ancaaa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1644.0, 590.5, 95.0, 20.0 ],
+					"text" : "cirklon cv output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1545.0, 657.5, 97.0, 20.0 ],
+					"text" : "4 ostrawa vca"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1545.0, 635.0, 97.0, 20.0 ],
+					"text" : "6 hexmix vca"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1545.0, 613.0, 97.0, 20.0 ],
+					"text" : "4 VCA for praga"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1545.0, 590.5, 97.0, 20.0 ],
+					"text" : "12 for aux sends"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1545.0, 568.5, 51.0, 20.0 ],
+					"text" : "total CV"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
@@ -96,7 +898,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -166,7 +968,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1048,7 +1850,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1966,7 +2768,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2487,7 +3289,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2548,6 +3350,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "solo",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "Solo",
 											"parameter_type" : 2
 										}
@@ -2582,6 +3385,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "active",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "Active",
 											"parameter_type" : 2
 										}
@@ -2610,6 +3414,7 @@
 											"parameter_invisible" : 1,
 											"parameter_longname" : "toggle[22]",
 											"parameter_mmax" : 1.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "toggle",
 											"parameter_type" : 3
 										}
@@ -2641,6 +3446,7 @@
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "live.toggle[12]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.toggle",
 											"parameter_type" : 2
 										}
@@ -2665,6 +3471,7 @@
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "button[7]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "button[7]",
 											"parameter_type" : 2
 										}
@@ -2689,6 +3496,7 @@
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "toggle[10]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "toggle[10]",
 											"parameter_type" : 2
 										}
@@ -2713,6 +3521,7 @@
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "button[6]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "button[6]",
 											"parameter_type" : 2
 										}
@@ -2737,6 +3546,7 @@
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "button[5]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "button[5]",
 											"parameter_type" : 2
 										}
@@ -2787,7 +3597,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3429,7 +4239,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1325.0, 456.0, 53.0, 22.0 ],
+					"patching_rect" : [ 1325.0, 439.5, 53.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3455,6 +4265,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "button[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "button[4]",
 							"parameter_type" : 2
 						}
@@ -3478,6 +4289,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[11]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[11]",
 							"parameter_type" : 3
 						}
@@ -3501,6 +4313,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[10]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[10]",
 							"parameter_type" : 3
 						}
@@ -3549,7 +4362,7 @@
 						}
 , 						{
 							"number" : 20,
-							"data" : [ 256, "obj-26", "matrixctrl", "list", 0, 0, 0.0, 0, 1, 0.0, 0, 2, 0.0, 0, 3, 0.0, 0, 4, 0.0, 0, 5, 0.0, 0, 6, 0.0, 0, 7, 0.0, 0, 8, 0.0, 0, 9, 0.0, 0, 10, 0.0, 0, 11, 0.0, 1, 0, 0.0, 1, 1, 0.0, 1, 2, 1.0, 1, 3, 1.0, 1, 4, 1.0, 1, 5, 1.0, 1, 6, 1.0, 1, 7, 1.0, 1, 8, 1.0, 1, 9, 0.0, 1, 10, 0.0, 1, 11, 0.0, 2, 0, 0.0, 2, 1, 0.0, 2, 2, 1.0, 2, 3, 1.0, 2, 4, 1.0, 2, 5, 1.0, 2, 6, 1.0, 2, 7, 1.0, 2, 8, 1.0, 2, 9, 0.0, 2, 10, 0.0, 2, 11, 0.0, 3, 0, 0.0, 3, 1, 0.0, 3, 2, 1.0, 3, 3, 0.0, 3, 4, 0.0, 3, 5, 0.0, 3, 6, 0.0, 3, 7, 0.0, 3, 8, 1.0, 3, 9, 0.0, 3, 10, 0.0, 3, 11, 0.0, 4, 0, 0.0, 4, 1, 0.0, 4, 2, 1.0, 4, 3, 0.0, 4, 4, 0.0, 4, 5, 0.0, 4, 6, 0.0, 4, 7, 0.0, 4, 8, 1.0, 4, 9, 0.0, 4, 10, 0.0, 4, 11, 0.0, 5, 0, 0.0, 5, 1, 0.0, 5, 2, 1.0, 5, 3, 0.0, 5, 4, 0.0, 5, 5, 0.0, 5, 6, 0.0, 5, 7, 0.0, 5, 8, 1.0, 5, 9, 0.0, 5, 10, 0.0, 5, 11, 0.0, 6, 0, 0.0, 6, 1, 0.0, 6, 2, 1.0, 6, 3, 0.0, 6, 4, 0.0, 6, 5, 0.0, 6, 6, 0.0, 6, 7, 0.0, 6, 8, 1.0, 6, 9, 0.0, 6, 10, 0.0, 6, 11, 0.0, 256, "obj-26", "matrixctrl", "list", 7, 0, 0.0, 7, 1, 0.0, 7, 2, 0.0, 7, 3, 0.0, 7, 4, 0.0, 7, 5, 0.0, 7, 6, 0.0, 7, 7, 0.0, 7, 8, 0.0, 7, 9, 0.0, 7, 10, 0.0, 7, 11, 0.0, 8, 0, 0.0, 8, 1, 0.0, 8, 2, 0.0, 8, 3, 0.0, 8, 4, 0.0, 8, 5, 0.0, 8, 6, 0.0, 8, 7, 0.0, 8, 8, 0.0, 8, 9, 0.0, 8, 10, 0.0, 8, 11, 0.0, 9, 0, 0.0, 9, 1, 0.0, 9, 2, 0.0, 9, 3, 0.0, 9, 4, 0.0, 9, 5, 0.0, 9, 6, 0.0, 9, 7, 0.0, 9, 8, 0.0, 9, 9, 0.0, 9, 10, 0.0, 9, 11, 0.0, 10, 0, 0.0, 10, 1, 0.0, 10, 2, 1.0, 10, 3, 1.0, 10, 4, 1.0, 10, 5, 1.0, 10, 6, 1.0, 10, 7, 1.0, 10, 8, 1.0, 10, 9, 0.0, 10, 10, 0.0, 10, 11, 0.0, 11, 0, 0.0, 11, 1, 0.0, 11, 2, 1.0, 11, 3, 1.0, 11, 4, 1.0, 11, 5, 1.0, 11, 6, 1.0, 11, 7, 1.0, 11, 8, 1.0, 11, 9, 0.0, 11, 10, 0.0, 11, 11, 0.0, 12, 0, 0.0, 12, 1, 0.0, 12, 2, 0.0, 12, 3, 0.0, 12, 4, 0.0, 12, 5, 0.0, 12, 6, 0.0, 12, 7, 0.0, 12, 8, 0.0, 12, 9, 0.0, 12, 10, 0.0, 12, 11, 0.0, 13, 0, 0.0, 13, 1, 0.0, 13, 2, 0.0, 13, 3, 0.0, 13, 4, 0.0, 13, 5, 0.0, 13, 6, 0.0, 13, 7, 0.0, 13, 8, 0.0, 13, 9, 0.0, 13, 10, 0.0, 13, 11, 0.0, 220, "obj-26", "matrixctrl", "list", 14, 0, 0.0, 14, 1, 0.0, 14, 2, 0.0, 14, 3, 1.0, 14, 4, 1.0, 14, 5, 1.0, 14, 6, 1.0, 14, 7, 1.0, 14, 8, 1.0, 14, 9, 0.0, 14, 10, 0.0, 14, 11, 0.0, 15, 0, 0.0, 15, 1, 0.0, 15, 2, 1.0, 15, 3, 1.0, 15, 4, 0.0, 15, 5, 1.0, 15, 6, 0.0, 15, 7, 0.0, 15, 8, 0.0, 15, 9, 0.0, 15, 10, 0.0, 15, 11, 0.0, 16, 0, 0.0, 16, 1, 0.0, 16, 2, 1.0, 16, 3, 1.0, 16, 4, 0.0, 16, 5, 1.0, 16, 6, 0.0, 16, 7, 0.0, 16, 8, 0.0, 16, 9, 0.0, 16, 10, 0.0, 16, 11, 0.0, 17, 0, 0.0, 17, 1, 0.0, 17, 2, 1.0, 17, 3, 1.0, 17, 4, 0.0, 17, 5, 1.0, 17, 6, 0.0, 17, 7, 0.0, 17, 8, 0.0, 17, 9, 0.0, 17, 10, 0.0, 17, 11, 0.0, 18, 0, 0.0, 18, 1, 0.0, 18, 2, 0.0, 18, 3, 1.0, 18, 4, 1.0, 18, 5, 1.0, 18, 6, 1.0, 18, 7, 1.0, 18, 8, 1.0, 18, 9, 0.0, 18, 10, 0.0, 18, 11, 0.0, 19, 0, 0.0, 19, 1, 0.0, 19, 2, 0.0, 19, 3, 0.0, 19, 4, 0.0, 19, 5, 0.0, 19, 6, 0.0, 19, 7, 0.0, 19, 8, 0.0, 19, 9, 0.0, 19, 10, 0.0, 19, 11, 0.0 ]
+							"data" : [ 256, "obj-26", "matrixctrl", "list", 0, 0, 0.0, 0, 1, 0.0, 0, 2, 0.0, 0, 3, 0.0, 0, 4, 0.0, 0, 5, 0.0, 0, 6, 0.0, 0, 7, 0.0, 0, 8, 0.0, 0, 9, 0.0, 0, 10, 0.0, 0, 11, 1.0, 1, 0, 0.0, 1, 1, 0.0, 1, 2, 0.0, 1, 3, 0.0, 1, 4, 0.0, 1, 5, 0.0, 1, 6, 0.0, 1, 7, 0.0, 1, 8, 0.0, 1, 9, 0.0, 1, 10, 1.0, 1, 11, 0.0, 2, 0, 0.0, 2, 1, 0.0, 2, 2, 0.0, 2, 3, 0.0, 2, 4, 0.0, 2, 5, 0.0, 2, 6, 0.0, 2, 7, 0.0, 2, 8, 0.0, 2, 9, 1.0, 2, 10, 0.0, 2, 11, 0.0, 3, 0, 0.0, 3, 1, 0.0, 3, 2, 0.0, 3, 3, 0.0, 3, 4, 0.0, 3, 5, 0.0, 3, 6, 0.0, 3, 7, 0.0, 3, 8, 1.0, 3, 9, 0.0, 3, 10, 0.0, 3, 11, 0.0, 4, 0, 0.0, 4, 1, 0.0, 4, 2, 0.0, 4, 3, 0.0, 4, 4, 0.0, 4, 5, 0.0, 4, 6, 0.0, 4, 7, 1.0, 4, 8, 0.0, 4, 9, 0.0, 4, 10, 0.0, 4, 11, 0.0, 5, 0, 0.0, 5, 1, 0.0, 5, 2, 0.0, 5, 3, 0.0, 5, 4, 0.0, 5, 5, 0.0, 5, 6, 1.0, 5, 7, 0.0, 5, 8, 0.0, 5, 9, 0.0, 5, 10, 0.0, 5, 11, 0.0, 6, 0, 0.0, 6, 1, 0.0, 6, 2, 0.0, 6, 3, 0.0, 6, 4, 0.0, 6, 5, 1.0, 6, 6, 0.0, 6, 7, 0.0, 6, 8, 0.0, 6, 9, 0.0, 6, 10, 0.0, 6, 11, 0.0, 256, "obj-26", "matrixctrl", "list", 7, 0, 0.0, 7, 1, 0.0, 7, 2, 0.0, 7, 3, 0.0, 7, 4, 1.0, 7, 5, 0.0, 7, 6, 0.0, 7, 7, 0.0, 7, 8, 0.0, 7, 9, 0.0, 7, 10, 0.0, 7, 11, 0.0, 8, 0, 0.0, 8, 1, 0.0, 8, 2, 0.0, 8, 3, 0.0, 8, 4, 0.0, 8, 5, 0.0, 8, 6, 0.0, 8, 7, 0.0, 8, 8, 0.0, 8, 9, 0.0, 8, 10, 0.0, 8, 11, 1.0, 9, 0, 0.0, 9, 1, 0.0, 9, 2, 0.0, 9, 3, 0.0, 9, 4, 0.0, 9, 5, 0.0, 9, 6, 0.0, 9, 7, 0.0, 9, 8, 0.0, 9, 9, 0.0, 9, 10, 1.0, 9, 11, 0.0, 10, 0, 0.0, 10, 1, 0.0, 10, 2, 0.0, 10, 3, 0.0, 10, 4, 0.0, 10, 5, 0.0, 10, 6, 0.0, 10, 7, 0.0, 10, 8, 0.0, 10, 9, 1.0, 10, 10, 0.0, 10, 11, 0.0, 11, 0, 0.0, 11, 1, 0.0, 11, 2, 0.0, 11, 3, 0.0, 11, 4, 0.0, 11, 5, 0.0, 11, 6, 0.0, 11, 7, 0.0, 11, 8, 1.0, 11, 9, 0.0, 11, 10, 0.0, 11, 11, 0.0, 12, 0, 0.0, 12, 1, 0.0, 12, 2, 0.0, 12, 3, 0.0, 12, 4, 0.0, 12, 5, 0.0, 12, 6, 0.0, 12, 7, 1.0, 12, 8, 0.0, 12, 9, 0.0, 12, 10, 0.0, 12, 11, 0.0, 13, 0, 0.0, 13, 1, 0.0, 13, 2, 0.0, 13, 3, 0.0, 13, 4, 0.0, 13, 5, 0.0, 13, 6, 1.0, 13, 7, 0.0, 13, 8, 0.0, 13, 9, 0.0, 13, 10, 0.0, 13, 11, 0.0, 220, "obj-26", "matrixctrl", "list", 14, 0, 0.0, 14, 1, 0.0, 14, 2, 0.0, 14, 3, 0.0, 14, 4, 0.0, 14, 5, 1.0, 14, 6, 0.0, 14, 7, 0.0, 14, 8, 0.0, 14, 9, 0.0, 14, 10, 0.0, 14, 11, 0.0, 15, 0, 0.0, 15, 1, 0.0, 15, 2, 0.0, 15, 3, 0.0, 15, 4, 1.0, 15, 5, 0.0, 15, 6, 0.0, 15, 7, 0.0, 15, 8, 0.0, 15, 9, 0.0, 15, 10, 0.0, 15, 11, 0.0, 16, 0, 0.0, 16, 1, 0.0, 16, 2, 0.0, 16, 3, 0.0, 16, 4, 0.0, 16, 5, 0.0, 16, 6, 0.0, 16, 7, 0.0, 16, 8, 0.0, 16, 9, 0.0, 16, 10, 0.0, 16, 11, 0.0, 17, 0, 0.0, 17, 1, 0.0, 17, 2, 0.0, 17, 3, 0.0, 17, 4, 0.0, 17, 5, 0.0, 17, 6, 0.0, 17, 7, 0.0, 17, 8, 0.0, 17, 9, 0.0, 17, 10, 0.0, 17, 11, 0.0, 18, 0, 0.0, 18, 1, 0.0, 18, 2, 0.0, 18, 3, 0.0, 18, 4, 0.0, 18, 5, 0.0, 18, 6, 0.0, 18, 7, 0.0, 18, 8, 0.0, 18, 9, 0.0, 18, 10, 0.0, 18, 11, 0.0, 19, 0, 0.0, 19, 1, 0.0, 19, 2, 0.0, 19, 3, 0.0, 19, 4, 0.0, 19, 5, 0.0, 19, 6, 0.0, 19, 7, 0.0, 19, 8, 0.0, 19, 9, 0.0, 19, 10, 0.0, 19, 11, 0.0 ]
 						}
  ]
 				}
@@ -3586,7 +4399,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4026,7 +4839,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4062,25 +4875,55 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-16",
-									"linecount" : 3,
+									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 350.0, 490.0, 124.0, 53.0 ],
-									"text" : "BIR TANE USBde low priority direk JOMOX olsun"
+									"patching_rect" : [ 161.0, 172.0, 140.0, 22.0 ],
+									"text" : "Prophet-X Channel-1"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"linecount" : 5,
+									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 738.0, 286.0, 100.0 ],
-									"text" : "Cirklon CV connections (from omni\n-one for Bass station (usb), \n-one for time (usb)\n-one for cv(usb) bu bass statiin ile ayni olablr\n-one for drum trigs\n"
+									"patching_rect" : [ 159.5, 148.0, 171.0, 22.0 ],
+									"text" : "Waldorf Iridium Channel-1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 160.0, 124.0, 90.0, 22.0 ],
+									"text" : "Cirklon Drum"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 160.0, 308.0, 233.0, 22.0 ],
+									"text" : "Cirklon CV Channels, 1 is for DMUX"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 170.0, 320.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -4092,18 +4935,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 160.0, 244.0, 181.0, 22.0 ],
 									"text" : "MIDI-Clock to Max & VDMX"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 368.0, 107.0, 38.0 ],
-									"text" : "#0 ile unique id yaratio"
 								}
 
 							}
@@ -4273,29 +5104,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 50.0, 688.0, 75.0, 22.0 ],
 									"text" : "Cirklon CV"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-31",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 308.0, 173.0, 22.0 ],
-									"text" : "before you close section"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-29",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 340.0, 151.0, 22.0 ],
-									"text" : "bass stationi save to 0 "
 								}
 
 							}
@@ -4519,7 +5327,7 @@
 						"editing_bgcolor" : [ 0.201863512396812, 0.201895326375961, 0.201851934194565, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 584.0, 212.0, 69.0, 22.0 ],
+					"patching_rect" : [ 1423.0, 122.5, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4592,7 +5400,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4973,6 +5781,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_longname" : "toggle[1]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[1]",
 							"parameter_type" : 2
 						}
@@ -5000,6 +5809,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_longname" : "toggle",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle",
 							"parameter_type" : 2
 						}
@@ -5027,6 +5837,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_longname" : "toggle[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[2]",
 							"parameter_type" : 2
 						}
@@ -5054,6 +5865,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_longname" : "toggle[3]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[3]",
 							"parameter_type" : 2
 						}
@@ -5080,6 +5892,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "toggle[9]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[9]",
 							"parameter_type" : 2
 						}
@@ -5106,6 +5919,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "toggle[8]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[8]",
 							"parameter_type" : 2
 						}
@@ -5132,6 +5946,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "toggle[7]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[7]",
 							"parameter_type" : 2
 						}
@@ -5158,6 +5973,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "toggle[6]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[6]",
 							"parameter_type" : 2
 						}
@@ -5182,7 +5998,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5230,7 +6046,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5824,7 +6640,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6194,6 +7010,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "button[1]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "button[1]",
 							"parameter_type" : 2
 						}
@@ -6229,6 +7046,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "button",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "button",
 							"parameter_type" : 2
 						}
@@ -6251,7 +7069,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6435,7 +7253,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 341.0, 150.0, 20.0 ],
+					"patching_rect" : [ 527.0, 338.0, 150.0, 20.0 ],
 					"text" : "spray poly"
 				}
 
@@ -6446,7 +7264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 366.0, 150.0, 20.0 ],
+					"patching_rect" : [ 527.0, 363.0, 150.0, 20.0 ],
 					"text" : "nord drum calisma"
 				}
 
@@ -6480,7 +7298,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.0, 487.0, 167.0, 33.0 ],
+					"patching_rect" : [ 264.5, 468.5, 167.0, 33.0 ],
 					"text" : "transport yap ve search et ve sync ile birlestirme // tempo"
 				}
 
@@ -6528,20 +7346,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 463.25, 147.0, 20.0 ],
+					"patching_rect" : [ 264.5, 446.25, 147.0, 20.0 ],
 					"text" : "xaoc mixer expander calis"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 443.25, 171.0, 20.0 ],
-					"text" : "chromophone ile punch'i bagla"
 				}
 
 			}
@@ -6635,7 +7441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 265.0, 526.0, 40.0, 22.0 ],
+					"patching_rect" : [ 264.5, 503.5, 40.0, 22.0 ],
 					"text" : "twist~"
 				}
 
@@ -6675,7 +7481,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6878,6 +7684,7 @@
 											"parameter_invisible" : 1,
 											"parameter_longname" : "number[1]",
 											"parameter_mmax" : 12.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "number[1]",
 											"parameter_type" : 3
 										}
@@ -6974,6 +7781,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
 											"parameter_longname" : "number",
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "number",
 											"parameter_type" : 3
 										}
@@ -7130,6 +7938,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "toggle[5]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[5]",
 							"parameter_type" : 2
 						}
@@ -7199,6 +8008,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[9]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[9]",
 							"parameter_type" : 3
 						}
@@ -7256,6 +8066,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[8]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[8]",
 							"parameter_type" : 3
 						}
@@ -7322,7 +8133,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7509,13 +8320,13 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 960.0, 28.0, 960.0, 662.0 ],
+										"rect" : [ 134.0, 134.0, 960.0, 662.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -7897,7 +8708,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8942,7 +9753,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10015,7 +10826,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 532.5, 150.0, 33.0 ],
+					"patching_rect" : [ 527.0, 530.0, 150.0, 33.0 ],
 					"text" : "nord drum 6 channel mode 3 channel mode"
 				}
 
@@ -10041,7 +10852,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10271,7 +11082,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11062,526 +11873,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-187",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 516.0, 787.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 2,
-						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 1,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "Untitled1",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-16",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 350.0, 490.0, 124.0, 53.0 ],
-									"text" : "BIR TANE USBde low priority direk JOMOX olsun"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-9",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 738.0, 286.0, 100.0 ],
-									"text" : "Cirklon CV connections (from omni\n-one for Bass station (usb), \n-one for time (usb)\n-one for cv(usb) bu bass statiin ile ayni olablr\n-one for drum trigs\n"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 244.0, 181.0, 22.0 ],
-									"text" : "MIDI-Clock to Max & VDMX"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 368.0, 107.0, 38.0 ],
-									"text" : "#0 ile unique id yaratio"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-35",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 522.0, 95.0, 22.0 ],
-									"text" : "JOMOX KICK"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-34",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 546.0, 50.0, 22.0 ],
-									"text" : "BOUM"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-30",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 145.0, 688.0, 50.0, 22.0 ],
-									"text" : "USB-2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-28",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 658.0, 195.0, 22.0 ],
-									"text" : "__CV Soft-Thru__"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-25",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 468.0, 226.0, 22.0 ],
-									"text" : "___ANALOG CIRKLON OUTS___"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 594.0, 99.0, 22.0 ],
-									"text" : "Bass Station II"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 594.0, 97.0, 22.0 ],
-									"text" : "Cirklon-4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 570.0, 97.0, 22.0 ],
-									"text" : "Cirklon-3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 618.0, 100.0, 22.0 ],
-									"text" : "EVENTIDE H9"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 618.0, 97.0, 22.0 ],
-									"text" : "Cirklon-5"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 522.0, 97.0, 22.0 ],
-									"text" : "Cirklon-1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-11",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 498.0, 99.0, 22.0 ],
-									"text" : "Map Function"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-12",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 498.0, 105.0, 22.0 ],
-									"text" : "FROM Cirklon"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 546.0, 97.0, 22.0 ],
-									"text" : "Cirklon-2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-17",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 688.0, 75.0, 22.0 ],
-									"text" : "Cirklon CV"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-31",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 308.0, 173.0, 22.0 ],
-									"text" : "before you close section"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-29",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 340.0, 151.0, 22.0 ],
-									"text" : "bass stationi save to 0 "
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-64",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 380.0, 107.0, 22.0 ],
-									"text" : "!!! CV Channels"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-52",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 380.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-53",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 356.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-54",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 404.0, 290.0, 22.0 ],
-									"text" : "MIDI-CC's to Bass Station (Over MIDI Port-4)"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-55",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 404.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-5"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-56",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 428.0, 109.0, 22.0 ],
-									"text" : "Keyboard Notes"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-57",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 428.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-6"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-59",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 308.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-60",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 284.0, 99.0, 22.0 ],
-									"text" : "Map Function"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-62",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 284.0, 105.0, 22.0 ],
-									"text" : "TO Cirklon"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-63",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 332.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-51",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 196.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-50",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 172.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-46",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 220.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-5"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-49",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 244.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-6"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-44",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 124.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-41",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 100.0, 99.0, 22.0 ],
-									"text" : "Map Function"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"id" : "obj-38",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 102.0, 22.0 ],
-									"text" : "FROM Cirklon"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-36",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 148.0, 97.0, 22.0 ],
-									"text" : "Cirklon USB-2"
-								}
-
-							}
- ],
-						"lines" : [  ],
-						"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
-						"bgcolor" : [ 0.19854861497879, 0.198579788208008, 0.198537230491638, 1.0 ],
-						"editing_bgcolor" : [ 0.201863512396812, 0.201895326375961, 0.201851934194565, 1.0 ]
-					}
-,
-					"patching_rect" : [ 9.0, 293.5, 107.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"editing_bgcolor" : [ 0.201863512396812, 0.201895326375961, 0.201851934194565, 1.0 ],
-						"fontsize" : 14.0,
-						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.19854861497879, 0.198579788208008, 0.198537230491638, 1.0 ],
-						"tags" : "",
-						"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-					}
-,
-					"text" : "p bunuUPDATE"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-181",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -11606,6 +11897,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "button[3]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "button[3]",
 							"parameter_type" : 2
 						}
@@ -11670,8 +11962,8 @@
 						"number[3]" : [ 0 ],
 						"number[4]" : [ 2.0 ],
 						"number[5]" : [ 0.0 ],
-						"number[6]" : [ 0 ],
-						"number[7]" : [ 0 ],
+						"number[6]" : [ 64 ],
+						"number[7]" : [ 40 ],
 						"number[8]" : [ 0 ],
 						"number[9]" : [ 0 ],
 						"toggle" : [ 1 ],
@@ -11744,6 +12036,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[7]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[7]",
 							"parameter_type" : 3
 						}
@@ -11768,6 +12061,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "button[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "button[2]",
 							"parameter_type" : 2
 						}
@@ -11808,6 +12102,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[6]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[6]",
 							"parameter_type" : 3
 						}
@@ -11836,6 +12131,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[5]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[5]",
 							"parameter_type" : 3
 						}
@@ -11861,6 +12157,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[4]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[4]",
 							"parameter_type" : 3
 						}
@@ -11917,6 +12214,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[3]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 3
 						}
@@ -11976,6 +12274,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[2]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[2]",
 							"parameter_type" : 3
 						}
@@ -12021,7 +12320,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 483.5, 211.0, 47.0 ],
+					"patching_rect" : [ 527.0, 481.0, 211.0, 47.0 ],
 					"text" : "Set the Tone Pitch parameter to 60 if you want to match the\nTone pitch to the scale on a keyboard."
 				}
 
@@ -12032,7 +12331,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 463.5, 150.0, 20.0 ],
+					"patching_rect" : [ 527.0, 461.0, 150.0, 20.0 ],
 					"text" : "cc'ler nasil gozukuyor calis"
 				}
 
@@ -12044,7 +12343,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 428.5, 150.0, 33.0 ],
+					"patching_rect" : [ 527.0, 426.0, 150.0, 33.0 ],
 					"text" : "drum velocity etki etmesi veya etmemesi"
 				}
 
@@ -12055,7 +12354,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 408.5, 194.0, 20.0 ],
+					"patching_rect" : [ 527.0, 406.0, 194.0, 20.0 ],
 					"text" : "store'u tutmasi lazim parcalar arasi"
 				}
 
@@ -12066,7 +12365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 389.5, 178.0, 20.0 ],
+					"patching_rect" : [ 527.0, 387.0, 178.0, 20.0 ],
 					"text" : "nord drum volume compensator"
 				}
 
@@ -12106,7 +12405,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12473,6 +12772,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "toggle[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[4]",
 							"parameter_type" : 2
 						}
@@ -12599,7 +12899,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13613,7 +13913,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15442,7 +15742,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17343,7 +17643,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 307.5, 191.0, 248.0 ]
+					"patching_rect" : [ 255.0, 307.5, 191.0, 223.0 ]
 				}
 
 			}
